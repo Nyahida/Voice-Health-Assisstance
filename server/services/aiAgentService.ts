@@ -299,112 +299,388 @@ I would be happy to find and schedule an appointment with one of our specialists
     // CASE: SELECTION OF SLOT / CONFIRMATION TURN
     // Example: "Actually, make that Friday at 10 AM" or "Book slot" or "10:00"
     // ----------------------------------------------------
-    const mentionsTimeOrSlot = text.includes('slot') || text.includes('am') || text.includes('pm') || text.includes('friday') || text.includes('tomorrow') || text.includes('10') || text.includes('9') || text.includes('book') || text.includes('yes');
+    // const mentionsTimeOrSlot = text.includes('slot') || text.includes('am') || text.includes('pm') || text.includes('friday') || text.includes('tomorrow') || text.includes('10') || text.includes('9') || text.includes('book') || text.includes('yes');
 
-    if (context.selectedDoctorId && mentionsTimeOrSlot && !context.currentAppointmentId) {
-      // Find matching available slots for the selected doctor
-      const doc = db.getDoctorById(context.selectedDoctorId)!;
-      capsExecuted.push('check_availability');
-      const availSlotsRes = await capabilitiesService.executeCapability('check_availability', {
+    // if (context.selectedDoctorId && mentionsTimeOrSlot && !context.currentAppointmentId) {
+    //   // Find matching available slots for the selected doctor
+    //   const doc = db.getDoctorById(context.selectedDoctorId)!;
+    //   capsExecuted.push('check_availability');
+    //   const availSlotsRes = await capabilitiesService.executeCapability('check_availability', {
+    //     doctorId: doc.id
+    //   }, correlationId, patientId, 'Patient');
+
+    //   const availableSlots = availSlotsRes.result || [];
+    //   if (availableSlots.length === 0) {
+    //     return {
+    //       intent: 'CHECK_AVAILABILITY_EMPTY',
+    //       capabilitiesToRun: capsExecuted,
+    //       clarificationRequired: false,
+    //       generatedReply: `I checked Dr. ${doc.name.split(' ').pop()}'s schedule, but there are no open slots matching that time. Would you like me to look at the following week or check another doctor in ${doc.specialty}?`,
+    //       updatedContext: contextUpdates
+    //     };
+    //   }
+
+    //   // Context resolution: Resolve "Friday" or "tomorrow" or pick the first candidate slot
+    //   const selectedSlot = availableSlots[0];
+    //   contextUpdates.selectedSlot = selectedSlot;
+
+    //   // Execute Appointment Creation -> EHR submission -> Verification (PRD Section 13 & 28)
+    //   capsExecuted.push('create_appointment');
+    //   const createRes = await capabilitiesService.executeCapability('create_appointment', {
+    //     slotId: selectedSlot.id,
+    //     patientId,
+    //     reason: context.lastPatientUtterance || 'Patient consultation',
+    //     consultationType: 'in-person',
+    //     modeOverride
+    //   }, correlationId, patientId, 'Patient');
+
+    //   if (!createRes.success || !createRes.result.success) {
+    //     const errorMsg = createRes.result?.error || createRes.error;
+    //     const recoveryNote = createRes.result?.recoveryNote;
+
+    //     if (createRes.result?.reconciliationRecord) {
+    //       return {
+    //         intent: 'BOOKING_FAILED_RECONCILIATION',
+    //         capabilitiesToRun: capsExecuted,
+    //         clarificationRequired: false,
+    //         generatedReply: `We encountered a system delay communicating with the hospital's EHR. I have created an escalation ticket (${createRes.result.reconciliationRecord.id}) for our clinical coordinator, who will reach out directly to confirm your booking.`,
+    //         updatedContext: contextUpdates
+    //       };
+    //     }
+
+    //     return {
+    //       intent: 'BOOKING_FAILED',
+    //       capabilitiesToRun: capsExecuted,
+    //       clarificationRequired: true,
+    //       generatedReply: `I apologize, but that appointment slot could not be finalized: ${errorMsg}. Would you like to select an alternate time?`,
+    //       updatedContext: contextUpdates
+    //     };
+    //   }
+
+    //   const bookedAppt = createRes.result.appointment;
+    //   contextUpdates.currentAppointmentId = bookedAppt.id;
+
+    //   // Trigger Workflow & Notification (PRD Section 16 & 17)
+    //   capsExecuted.push('send_notification');
+    //   await capabilitiesService.executeCapability('send_notification', {
+    //     recipientType: 'Patient',
+    //     recipientId: patientId,
+    //     channel: 'SMS',
+    //     title: 'Appointment Confirmed',
+    //     message: `Your appointment with ${doc.name} at ${new Date(selectedSlot.startTime).toLocaleString()} is confirmed. (ID: ${bookedAppt.id})`
+    //   }, correlationId, patientId, 'Patient');
+
+    //   // Check Pre-Visit Questionnaire
+    //   capsExecuted.push('get_questionnaire');
+    //   const qRes = await capabilitiesService.executeCapability('get_questionnaire', {
+    //     hospitalId: doc.hospitalId,
+    //     specialty: doc.specialty,
+    //     healthConcern: context.lastPatientUtterance || text
+    //   }, correlationId, patientId, 'Patient');
+
+    //   const dateFmt = new Date(selectedSlot.startTime).toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+    //   const recoverySuffix = createRes.result.recoveryNote ? `\n[System Note: ${createRes.result.recoveryNote}]` : '';
+
+    //   // Resolve hospital name dynamically
+    //   const bookedHospital = db.getHospitalById(doc.hospitalId);
+    //   const bookedHospitalName = bookedHospital ? bookedHospital.name : 'the hospital';
+    //   const docLastName = doc.name.split(' ').pop();
+
+    //   if (qRes.result) {
+    //     contextUpdates.assignedQuestionnaireId = qRes.result.id;
+    //     return {
+    //       intent: 'CONFIRM_AND_START_QUESTIONNAIRE',
+    //       capabilitiesToRun: capsExecuted,
+    //       clarificationRequired: false,
+    //       generatedReply: `Great news! Your appointment with ${doc.name} is confirmed for ${dateFmt} at ${bookedHospitalName}. Your EHR reference is ${createRes.result.externalAppointmentId}.${recoverySuffix}\n\nBefore your visit, Dr. ${docLastName} requests a brief 2-minute pre-visit screening. Shall we begin?`,
+    //       updatedContext: contextUpdates
+    //     };
+    //   }
+
+    //   return {
+    //     intent: 'CONFIRM_BOOKING',
+    //     capabilitiesToRun: capsExecuted,
+    //     clarificationRequired: false,
+    //     generatedReply: `Your appointment with ${doc.name} is confirmed for ${dateFmt}. You will receive a reminder confirmation via SMS.${recoverySuffix}`,
+    //     updatedContext: contextUpdates
+    //   };
+    // }
+
+    // ----------------------------------------------------
+// CASE: SLOT SELECTION / BOOKING CONFIRMATION
+// IMPORTANT: Never book just because the patient says "yes".
+// A specific slot must be selected.
+// ----------------------------------------------------
+
+// if (context.selectedDoctorId && !context.currentAppointmentId) {
+if (
+  context.selectedDoctorId &&
+  !context.currentAppointmentId &&
+  context.bookingConfirmationPending
+) {
+
+  const hasBookingIntent =
+    /\b(book|schedule|reserve|appointment)\b/i.test(text);
+
+  const hasConfirmation =
+    /\b(yes|yeah|yep|sure|confirm|confirmed)\b/i.test(text);
+
+  // Detect an explicit time such as:
+  // 10 AM, 10:00 AM, 2 PM, 14:00
+  const timeMatch = text.match(
+  /\b(\d{1,2})(?::(\d{2}))\s*(am|pm)?\b|\b(\d{1,2})\s*(am|pm)\b/i
+);
+
+  // const requestedHour = timeMatch
+  //   ? parseInt(timeMatch[1], 10)
+  //   : null;
+
+  // const requestedMinute = timeMatch?.[2]
+  //   ? parseInt(timeMatch[2], 10)
+  //   : 0;
+
+  // const requestedPeriod = timeMatch?.[3]?.toLowerCase();
+  const requestedHour = timeMatch
+  ? parseInt(timeMatch[1] || timeMatch[4], 10)
+  : null;
+
+const requestedMinute = timeMatch?.[2]
+  ? parseInt(timeMatch[2], 10)
+  : 0;
+
+const requestedPeriod =
+  (timeMatch?.[3] || timeMatch?.[5])?.toLowerCase();
+
+  const hasExplicitTime = requestedHour !== null;
+
+  // Get doctor's availability
+  const doc = db.getDoctorById(context.selectedDoctorId)!;
+
+  capsExecuted.push('check_availability');
+
+  const availSlotsRes =
+    await capabilitiesService.executeCapability(
+      'check_availability',
+      {
         doctorId: doc.id
-      }, correlationId, patientId, 'Patient');
+      },
+      correlationId,
+      patientId,
+      'Patient'
+    );
 
-      const availableSlots = availSlotsRes.result || [];
-      if (availableSlots.length === 0) {
-        return {
-          intent: 'CHECK_AVAILABILITY_EMPTY',
-          capabilitiesToRun: capsExecuted,
-          clarificationRequired: false,
-          generatedReply: `I checked Dr. ${doc.name.split(' ').pop()}'s schedule, but there are no open slots matching that time. Would you like me to look at the following week or check another doctor in ${doc.specialty}?`,
-          updatedContext: contextUpdates
-        };
-      }
+  const availableSlots = availSlotsRes.result || [];
 
-      // Context resolution: Resolve "Friday" or "tomorrow" or pick the first candidate slot
-      const selectedSlot = availableSlots[0];
-      contextUpdates.selectedSlot = selectedSlot;
+  if (availableSlots.length === 0) {
+    return {
+      intent: 'CHECK_AVAILABILITY_EMPTY',
+      capabilitiesToRun: capsExecuted,
+      clarificationRequired: true,
+      generatedReply:
+        `I couldn't find any available appointments for Dr. ${doc.name}. Would you like me to check another doctor?`,
+      updatedContext: contextUpdates
+    };
+  }
 
-      // Execute Appointment Creation -> EHR submission -> Verification (PRD Section 13 & 28)
-      capsExecuted.push('create_appointment');
-      const createRes = await capabilitiesService.executeCapability('create_appointment', {
-        slotId: selectedSlot.id,
+  // ----------------------------------------------------
+  // FIRST: Patient has NOT selected a specific slot
+  // ----------------------------------------------------
+
+  if (!hasExplicitTime) {
+
+    // Patient said only "yes", "sure", etc.
+    if (hasConfirmation || hasBookingIntent) {
+
+      contextUpdates.bookingConfirmationPending = true;
+
+      const slotTimes = availableSlots
+        .slice(0, 3)
+        .map((s: any) =>
+          new Date(s.startTime).toLocaleString([], {
+            weekday: 'short',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+          })
+        );
+
+      return {
+        intent: 'SLOT_SELECTION_REQUIRED',
+        capabilitiesToRun: capsExecuted,
+        clarificationRequired: true,
+        generatedReply:
+          `Certainly. Which appointment time would you prefer: ${slotTimes.join(', ')}? Please tell me the specific time you want.`,
+        updatedContext: contextUpdates
+      };
+    }
+
+    // Patient is simply describing the problem.
+    // DO NOT BOOK.
+    return {
+      intent: 'AWAITING_BOOKING_SELECTION',
+      capabilitiesToRun: capsExecuted,
+      clarificationRequired: true,
+      generatedReply:
+        `I have found Dr. ${doc.name}, a ${doc.specialty} specialist. Please tell me which available time you would like to book.`,
+      updatedContext: contextUpdates
+    };
+  }
+
+  // ----------------------------------------------------
+  // SECOND: Patient provided a specific time
+  // ----------------------------------------------------
+
+  const matchingSlot = availableSlots.find((slot: any) => {
+
+    const slotDate = new Date(slot.startTime);
+
+    let slotHour = slotDate.getHours();
+    const slotMinute = slotDate.getMinutes();
+
+    // Convert requested 12-hour time to 24-hour time
+    let normalizedRequestedHour = requestedHour!;
+
+    if (requestedPeriod === 'pm' && normalizedRequestedHour < 12) {
+      normalizedRequestedHour += 12;
+    }
+
+    if (requestedPeriod === 'am' && normalizedRequestedHour === 12) {
+      normalizedRequestedHour = 0;
+    }
+
+    return (
+      slotHour === normalizedRequestedHour &&
+      slotMinute === requestedMinute
+    );
+  });
+
+  // Specific time was given but doesn't exist
+  if (!matchingSlot) {
+
+    contextUpdates.bookingConfirmationPending = true;
+
+    const slotTimes = availableSlots
+      .slice(0, 3)
+      .map((s: any) =>
+        new Date(s.startTime).toLocaleString([], {
+          weekday: 'short',
+          month: 'short',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        })
+      );
+
+    return {
+      intent: 'SLOT_NOT_FOUND',
+      capabilitiesToRun: capsExecuted,
+      clarificationRequired: true,
+      generatedReply:
+        `I couldn't find that exact time. The available options are ${slotTimes.join(', ')}. Which one would you like?`,
+      updatedContext: contextUpdates
+    };
+  }
+
+  // ----------------------------------------------------
+  // SPECIFIC SLOT FOUND
+  // Now we are allowed to book.
+  // ----------------------------------------------------
+
+  contextUpdates.selectedSlot = matchingSlot;
+  contextUpdates.bookingConfirmationPending = false;
+
+  capsExecuted.push('create_appointment');
+
+  const createRes =
+    await capabilitiesService.executeCapability(
+      'create_appointment',
+      {
+        slotId: matchingSlot.id,
         patientId,
         reason: context.lastPatientUtterance || 'Patient consultation',
         consultationType: 'in-person',
         modeOverride
-      }, correlationId, patientId, 'Patient');
+      },
+      correlationId,
+      patientId,
+      'Patient'
+    );
 
-      if (!createRes.success || !createRes.result.success) {
-        const errorMsg = createRes.result?.error || createRes.error;
-        const recoveryNote = createRes.result?.recoveryNote;
+  if (!createRes.success || !createRes.result.success) {
 
-        if (createRes.result?.reconciliationRecord) {
-          return {
-            intent: 'BOOKING_FAILED_RECONCILIATION',
-            capabilitiesToRun: capsExecuted,
-            clarificationRequired: false,
-            generatedReply: `We encountered a system delay communicating with the hospital's EHR. I have created an escalation ticket (${createRes.result.reconciliationRecord.id}) for our clinical coordinator, who will reach out directly to confirm your booking.`,
-            updatedContext: contextUpdates
-          };
-        }
+    const errorMsg =
+      createRes.result?.error || createRes.error;
 
-        return {
-          intent: 'BOOKING_FAILED',
-          capabilitiesToRun: capsExecuted,
-          clarificationRequired: true,
-          generatedReply: `I apologize, but that appointment slot could not be finalized: ${errorMsg}. Would you like to select an alternate time?`,
-          updatedContext: contextUpdates
-        };
-      }
-
-      const bookedAppt = createRes.result.appointment;
-      contextUpdates.currentAppointmentId = bookedAppt.id;
-
-      // Trigger Workflow & Notification (PRD Section 16 & 17)
-      capsExecuted.push('send_notification');
-      await capabilitiesService.executeCapability('send_notification', {
-        recipientType: 'Patient',
-        recipientId: patientId,
-        channel: 'SMS',
-        title: 'Appointment Confirmed',
-        message: `Your appointment with ${doc.name} at ${new Date(selectedSlot.startTime).toLocaleString()} is confirmed. (ID: ${bookedAppt.id})`
-      }, correlationId, patientId, 'Patient');
-
-      // Check Pre-Visit Questionnaire
-      capsExecuted.push('get_questionnaire');
-      const qRes = await capabilitiesService.executeCapability('get_questionnaire', {
-        hospitalId: doc.hospitalId,
-        specialty: doc.specialty,
-        healthConcern: context.lastPatientUtterance || text
-      }, correlationId, patientId, 'Patient');
-
-      const dateFmt = new Date(selectedSlot.startTime).toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-      const recoverySuffix = createRes.result.recoveryNote ? `\n[System Note: ${createRes.result.recoveryNote}]` : '';
-
-      // Resolve hospital name dynamically
-      const bookedHospital = db.getHospitalById(doc.hospitalId);
-      const bookedHospitalName = bookedHospital ? bookedHospital.name : 'the hospital';
-      const docLastName = doc.name.split(' ').pop();
-
-      if (qRes.result) {
-        contextUpdates.assignedQuestionnaireId = qRes.result.id;
-        return {
-          intent: 'CONFIRM_AND_START_QUESTIONNAIRE',
-          capabilitiesToRun: capsExecuted,
-          clarificationRequired: false,
-          generatedReply: `Great news! Your appointment with ${doc.name} is confirmed for ${dateFmt} at ${bookedHospitalName}. Your EHR reference is ${createRes.result.externalAppointmentId}.${recoverySuffix}\n\nBefore your visit, Dr. ${docLastName} requests a brief 2-minute pre-visit screening. Shall we begin?`,
-          updatedContext: contextUpdates
-        };
-      }
-
+    if (createRes.result?.reconciliationRecord) {
       return {
-        intent: 'CONFIRM_BOOKING',
+        intent: 'BOOKING_FAILED_RECONCILIATION',
         capabilitiesToRun: capsExecuted,
         clarificationRequired: false,
-        generatedReply: `Your appointment with ${doc.name} is confirmed for ${dateFmt}. You will receive a reminder confirmation via SMS.${recoverySuffix}`,
+        generatedReply:
+          `There was a delay communicating with the hospital's EHR. I created an escalation ticket (${createRes.result.reconciliationRecord.id}) so the booking can be verified safely.`,
         updatedContext: contextUpdates
       };
     }
+
+    return {
+      intent: 'BOOKING_FAILED',
+      capabilitiesToRun: capsExecuted,
+      clarificationRequired: true,
+      generatedReply:
+        `I couldn't finalize that appointment: ${errorMsg}. Would you like to select another available time?`,
+      updatedContext: contextUpdates
+    };
+  }
+
+  // ----------------------------------------------------
+  // BOOKING SUCCESS
+  // ----------------------------------------------------
+
+  const bookedAppt = createRes.result.appointment;
+
+  contextUpdates.currentAppointmentId = bookedAppt.id;
+
+  capsExecuted.push('send_notification');
+
+  await capabilitiesService.executeCapability(
+    'send_notification',
+    {
+      recipientType: 'Patient',
+      recipientId: patientId,
+      channel: 'SMS',
+      title: 'Appointment Confirmed',
+      message:
+        `Your appointment with ${doc.name} at ${new Date(
+          matchingSlot.startTime
+        ).toLocaleString()} is confirmed. (ID: ${bookedAppt.id})`
+    },
+    correlationId,
+    patientId,
+    'Patient'
+  );
+
+  const dateFmt =
+    new Date(matchingSlot.startTime).toLocaleDateString(
+      'en-US',
+      {
+        weekday: 'long',
+        month: 'short',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      }
+    );
+
+  return {
+    intent: 'CONFIRM_BOOKING',
+    capabilitiesToRun: capsExecuted,
+    clarificationRequired: false,
+    generatedReply:
+      `Your appointment with Dr. ${doc.name} is confirmed for ${dateFmt}. You will receive a confirmation via SMS.`,
+    updatedContext: contextUpdates
+  };
+}
 
     // ----------------------------------------------------
     // CASE: INITIAL REQUEST / PROVIDER & SPECIALTY DISCOVERY
@@ -475,13 +751,23 @@ I would be happy to find and schedule an appointment with one of our specialists
       ? `I found ${selectedDoc.name}, a specialist in ${selectedDoc.specialty} at ${hospitalName}. \n\nI checked real-time availability: upcoming openings include ${slotTimes.join(', ')}. \n\nWould you like me to book one of these slots for you?`
       : `I found ${selectedDoc.name}, a specialist in ${selectedDoc.specialty} at ${hospitalName}, but there are no available slots right now. Would you like me to check another doctor or day?`;
 
+    // return {
+    //   intent: 'DOCTOR_AND_AVAILABILITY_DISCOVERED',
+    //   capabilitiesToRun: capsExecuted,
+    //   clarificationRequired: false,
+    //   generatedReply: reply,
+    //   updatedContext: contextUpdates
+    // };
     return {
-      intent: 'DOCTOR_AND_AVAILABILITY_DISCOVERED',
-      capabilitiesToRun: capsExecuted,
-      clarificationRequired: false,
-      generatedReply: reply,
-      updatedContext: contextUpdates
-    };
+  intent: 'DOCTOR_AND_AVAILABILITY_DISCOVERED',
+  capabilitiesToRun: capsExecuted,
+  clarificationRequired: false,
+  generatedReply: reply,
+  updatedContext: {
+    ...contextUpdates,
+    bookingConfirmationPending: false
+  }
+};
   }
 
   private formatVoiceFriendlyText(text: string): string {

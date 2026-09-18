@@ -226,6 +226,7 @@ export interface UserContext {
   recentSearchQuery?: string;
   lastActiveSessionId?: string;
   updatedAt: string;
+  preferredTimeOfDay?: string;
 }
 
 export interface Appointment {
@@ -344,6 +345,7 @@ export interface AIContext {
   pendingClarification?: string;
   lastPatientUtterance?: string;
   updatedAt: string;
+  bookingConfirmationPending?: boolean;
 }
 
 export interface CapabilityDefinition {

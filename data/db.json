@@ -11912,6 +11912,166 @@
           "timestamp": "2026-09-18T12:40:13.245Z"
         }
       ]
+    },
+    {
+      "id": "conv-1789755234075",
+      "patientId": "pat-1",
+      "channel": "web_voice",
+      "startedAt": "2026-09-18T18:14:07.908Z",
+      "messages": [
+        {
+          "id": "msg-7e0bd7",
+          "role": "user",
+          "content": "I have severe headache",
+          "timestamp": "2026-09-18T18:14:07.936Z"
+        },
+        {
+          "id": "msg-179612",
+          "role": "assistant",
+          "content": "I found Dr. Elena Rostova, a specialist in Neurology at St. Jude Medical Center. \n\nI checked real-time availability: upcoming openings include 09:30 AM on Mon, Sep 21, 10:00 AM on Mon, Sep 21, 10:30 AM on Mon, Sep 21. \n\nWould you like me to book one of these slots for you?",
+          "timestamp": "2026-09-18T18:14:08.155Z"
+        }
+      ]
+    },
+    {
+      "id": "conv-1789755308681",
+      "patientId": "pat-1",
+      "channel": "web_voice",
+      "startedAt": "2026-09-18T18:28:19.609Z",
+      "messages": [
+        {
+          "id": "msg-768520",
+          "role": "user",
+          "content": "i have severe headache",
+          "timestamp": "2026-09-18T18:28:19.773Z"
+        },
+        {
+          "id": "msg-deafe4",
+          "role": "assistant",
+          "content": "I found Dr. Elena Rostova, a specialist in Neurology at St. Jude Medical Center. \n\nI checked real-time availability: upcoming openings include 09:30 AM on Mon, Sep 21, 10:00 AM on Mon, Sep 21, 10:30 AM on Mon, Sep 21. \n\nWould you like me to book one of these slots for you?",
+          "timestamp": "2026-09-18T18:28:19.864Z"
+        }
+      ]
+    },
+    {
+      "id": "conv-1789756742423",
+      "patientId": "pat-1",
+      "channel": "web_voice",
+      "startedAt": "2026-09-18T18:39:13.792Z",
+      "messages": [
+        {
+          "id": "msg-be62c3",
+          "role": "user",
+          "content": "i have severe heaadache",
+          "timestamp": "2026-09-18T18:39:13.809Z"
+        },
+        {
+          "id": "msg-797c04",
+          "role": "assistant",
+          "content": "I found Dr. Robert Rao, a specialist in Orthopedics at City Central Hospital. \n\nI checked real-time availability: upcoming openings include 09:00 AM on Mon, Sep 21, 09:30 AM on Mon, Sep 21, 10:00 AM on Mon, Sep 21. \n\nWould you like me to book one of these slots for you?",
+          "timestamp": "2026-09-18T18:39:13.884Z"
+        }
+      ]
+    },
+    {
+      "id": "conv-1789756767341",
+      "patientId": "pat-1",
+      "channel": "web_voice",
+      "startedAt": "2026-09-18T18:39:32.483Z",
+      "messages": [
+        {
+          "id": "msg-1b674e",
+          "role": "user",
+          "content": "I have severe headache",
+          "timestamp": "2026-09-18T18:39:32.502Z"
+        },
+        {
+          "id": "msg-cf231e",
+          "role": "assistant",
+          "content": "I found Dr. Elena Rostova, a specialist in Neurology at St. Jude Medical Center. \n\nI checked real-time availability: upcoming openings include 09:30 AM on Mon, Sep 21, 10:00 AM on Mon, Sep 21, 10:30 AM on Mon, Sep 21. \n\nWould you like me to book one of these slots for you?",
+          "timestamp": "2026-09-18T18:39:32.542Z"
+        }
+      ]
+    },
+    {
+      "id": "conv-1789757819566",
+      "patientId": "pat-1",
+      "channel": "web_voice",
+      "startedAt": "2026-09-18T18:57:11.324Z",
+      "messages": [
+        {
+          "id": "msg-563c9b",
+          "role": "user",
+          "content": "i have severe headache",
+          "timestamp": "2026-09-18T18:57:11.342Z"
+        },
+        {
+          "id": "msg-05bdb5",
+          "role": "assistant",
+          "content": "I found Dr. Elena Rostova, a specialist in Neurology at St. Jude Medical Center. \n\nI checked real-time availability: upcoming openings include 09:30 AM on Mon, Sep 21, 10:00 AM on Mon, Sep 21, 10:30 AM on Mon, Sep 21. \n\nWould you like me to book one of these slots for you?",
+          "timestamp": "2026-09-18T18:57:11.405Z"
+        }
+      ]
+    },
+    {
+      "id": "conv-1789758261807",
+      "patientId": "pat-1",
+      "channel": "web_voice",
+      "startedAt": "2026-09-18T19:04:34.697Z",
+      "messages": [
+        {
+          "id": "msg-4ce845",
+          "role": "user",
+          "content": "i have severe headache",
+          "timestamp": "2026-09-18T19:04:34.718Z"
+        },
+        {
+          "id": "msg-f06ad5",
+          "role": "assistant",
+          "content": "I found Dr. Elena Rostova, a specialist in Neurology at St. Jude Medical Center. \n\nI checked real-time availability: upcoming openings include 09:30 AM on Mon, Sep 21, 10:00 AM on Mon, Sep 21, 10:30 AM on Mon, Sep 21. \n\nWould you like me to book one of these slots for you?",
+          "timestamp": "2026-09-18T19:04:34.788Z"
+        }
+      ]
+    },
+    {
+      "id": "conv-1789758882521",
+      "patientId": "pat-1",
+      "channel": "web_voice",
+      "startedAt": "2026-09-18T19:15:00.894Z",
+      "messages": [
+        {
+          "id": "msg-f766d4",
+          "role": "user",
+          "content": "i have severe headache",
+          "timestamp": "2026-09-18T19:15:00.924Z"
+        },
+        {
+          "id": "msg-14d097",
+          "role": "assistant",
+          "content": "I found Dr. Elena Rostova, a specialist in Neurology at St. Jude Medical Center. \n\nI checked real-time availability: upcoming openings include 09:30 AM on Mon, Sep 21, 10:00 AM on Mon, Sep 21, 10:30 AM on Mon, Sep 21. \n\nWould you like me to book one of these slots for you?",
+          "timestamp": "2026-09-18T19:15:00.989Z"
+        }
+      ]
+    },
+    {
+      "id": "conv-1789759675136",
+      "patientId": "pat-1",
+      "channel": "web_voice",
+      "startedAt": "2026-09-18T19:28:05.109Z",
+      "messages": [
+        {
+          "id": "msg-e6e5e9",
+          "role": "user",
+          "content": "i have severe headache",
+          "timestamp": "2026-09-18T19:28:05.128Z"
+        },
+        {
+          "id": "msg-54d6fd",
+          "role": "assistant",
+          "content": "I found Dr. Elena Rostova, a specialist in Neurology at St. Jude Medical Center. \n\nI checked real-time availability: upcoming openings include 09:30 AM on Mon, Sep 21, 10:00 AM on Mon, Sep 21, 10:30 AM on Mon, Sep 21. \n\nWould you like me to book one of these slots for you?",
+          "timestamp": "2026-09-18T19:28:05.193Z"
+        }
+      ]
     }
   ],
   "aiContexts": [
@@ -11941,6 +12101,74 @@
       "selectedDoctorId": "doc-sneha",
       "selectedHospitalId": "hosp-2",
       "lastPatientUtterance": "I need to see a specialist for a persistent skin rash this week."
+    },
+    {
+      "conversationId": "conv-1789755234075",
+      "patientId": "pat-1",
+      "updatedAt": "2026-09-18T18:14:08.142Z",
+      "selectedDoctorId": "doc-3",
+      "selectedHospitalId": "hosp-2",
+      "lastPatientUtterance": "I have severe headache"
+    },
+    {
+      "conversationId": "conv-1789755308681",
+      "patientId": "pat-1",
+      "updatedAt": "2026-09-18T18:28:19.850Z",
+      "selectedDoctorId": "doc-3",
+      "selectedHospitalId": "hosp-2",
+      "lastPatientUtterance": "i have severe headache"
+    },
+    {
+      "conversationId": "conv-1789756742423",
+      "patientId": "pat-1",
+      "updatedAt": "2026-09-18T18:39:13.874Z",
+      "selectedDoctorId": "doc-1",
+      "selectedHospitalId": "hosp-1",
+      "lastPatientUtterance": "i have severe heaadache"
+    },
+    {
+      "conversationId": "conv-1789756767341",
+      "patientId": "pat-1",
+      "updatedAt": "2026-09-18T18:39:32.530Z",
+      "selectedDoctorId": "doc-3",
+      "selectedHospitalId": "hosp-2",
+      "lastPatientUtterance": "I have severe headache"
+    },
+    {
+      "conversationId": "conv-1789757819566",
+      "patientId": "pat-1",
+      "updatedAt": "2026-09-18T18:57:11.395Z",
+      "selectedDoctorId": "doc-3",
+      "selectedHospitalId": "hosp-2",
+      "bookingConfirmationPending": true,
+      "lastPatientUtterance": "i have severe headache"
+    },
+    {
+      "conversationId": "conv-1789758261807",
+      "patientId": "pat-1",
+      "updatedAt": "2026-09-18T19:04:34.780Z",
+      "selectedDoctorId": "doc-3",
+      "selectedHospitalId": "hosp-2",
+      "bookingConfirmationPending": false,
+      "lastPatientUtterance": "i have severe headache"
+    },
+    {
+      "conversationId": "conv-1789758882521",
+      "patientId": "pat-1",
+      "updatedAt": "2026-09-18T19:15:00.979Z",
+      "selectedDoctorId": "doc-3",
+      "selectedHospitalId": "hosp-2",
+      "bookingConfirmationPending": false,
+      "lastPatientUtterance": "i have severe headache"
+    },
+    {
+      "conversationId": "conv-1789759675136",
+      "patientId": "pat-1",
+      "updatedAt": "2026-09-18T19:28:05.185Z",
+      "selectedDoctorId": "doc-3",
+      "selectedHospitalId": "hosp-2",
+      "bookingConfirmationPending": false,
+      "lastPatientUtterance": "i have severe headache"
     }
   ],
   "capabilityExecutions": [
@@ -13720,6 +13948,4771 @@
       "success": true,
       "latencyMs": 1,
       "timestamp": "2026-09-18T12:40:13.232Z"
+    },
+    {
+      "id": "cap-exec-416cb781",
+      "capabilityName": "search_doctors",
+      "correlationId": "corr-c9571ffb",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "specialty": "Neurology"
+      },
+      "result": [
+        {
+          "id": "doc-3",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Elena Rostova",
+          "photoUrl": "https://images.unsplash.com/photo-1594824813588-4686414777c6?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Neurology",
+          "department": "Neuroscience Institute",
+          "qualifications": [
+            "MD",
+            "PhD Neuroscience",
+            "Board Certified Neurology"
+          ],
+          "experienceYears": 16,
+          "consultationFee": 250,
+          "languages": [
+            "English",
+            "Russian"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 45,
+          "externalProviderId": "CERNER-PRV-ROST-118",
+          "status": "Active",
+          "bio": "Neurologist specializing in severe migraine, neuropathy, neurological sleep disturbances, and cognitive health.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        }
+      ],
+      "success": true,
+      "latencyMs": 0,
+      "timestamp": "2026-09-18T18:14:07.941Z"
+    },
+    {
+      "id": "cap-exec-9d4356a0",
+      "capabilityName": "check_availability",
+      "correlationId": "corr-c9571ffb",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "doctorId": "doc-3"
+      },
+      "result": [
+        {
+          "id": "slot-doc-3-2026-09-21-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:00:00.000Z",
+          "endTime": "2026-09-21T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:30:00.000Z",
+          "endTime": "2026-09-21T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:00:00.000Z",
+          "endTime": "2026-09-21T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:30:00.000Z",
+          "endTime": "2026-09-21T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T06:00:00.000Z",
+          "endTime": "2026-09-21T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T08:30:00.000Z",
+          "endTime": "2026-09-21T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:00:00.000Z",
+          "endTime": "2026-09-21T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:30:00.000Z",
+          "endTime": "2026-09-21T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:00:00.000Z",
+          "endTime": "2026-09-21T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:30:00.000Z",
+          "endTime": "2026-09-21T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T11:00:00.000Z",
+          "endTime": "2026-09-21T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T03:30:00.000Z",
+          "endTime": "2026-09-22T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:00:00.000Z",
+          "endTime": "2026-09-22T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:30:00.000Z",
+          "endTime": "2026-09-22T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:00:00.000Z",
+          "endTime": "2026-09-22T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:30:00.000Z",
+          "endTime": "2026-09-22T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T06:00:00.000Z",
+          "endTime": "2026-09-22T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T08:30:00.000Z",
+          "endTime": "2026-09-22T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:00:00.000Z",
+          "endTime": "2026-09-22T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:30:00.000Z",
+          "endTime": "2026-09-22T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:00:00.000Z",
+          "endTime": "2026-09-22T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:30:00.000Z",
+          "endTime": "2026-09-22T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T11:00:00.000Z",
+          "endTime": "2026-09-22T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T03:30:00.000Z",
+          "endTime": "2026-09-23T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:00:00.000Z",
+          "endTime": "2026-09-23T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:30:00.000Z",
+          "endTime": "2026-09-23T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:00:00.000Z",
+          "endTime": "2026-09-23T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:30:00.000Z",
+          "endTime": "2026-09-23T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T06:00:00.000Z",
+          "endTime": "2026-09-23T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T08:30:00.000Z",
+          "endTime": "2026-09-23T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:00:00.000Z",
+          "endTime": "2026-09-23T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:30:00.000Z",
+          "endTime": "2026-09-23T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:00:00.000Z",
+          "endTime": "2026-09-23T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:30:00.000Z",
+          "endTime": "2026-09-23T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T11:00:00.000Z",
+          "endTime": "2026-09-23T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T03:30:00.000Z",
+          "endTime": "2026-09-24T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:00:00.000Z",
+          "endTime": "2026-09-24T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:30:00.000Z",
+          "endTime": "2026-09-24T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:00:00.000Z",
+          "endTime": "2026-09-24T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:30:00.000Z",
+          "endTime": "2026-09-24T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T06:00:00.000Z",
+          "endTime": "2026-09-24T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T08:30:00.000Z",
+          "endTime": "2026-09-24T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:00:00.000Z",
+          "endTime": "2026-09-24T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:30:00.000Z",
+          "endTime": "2026-09-24T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:00:00.000Z",
+          "endTime": "2026-09-24T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:30:00.000Z",
+          "endTime": "2026-09-24T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T11:00:00.000Z",
+          "endTime": "2026-09-24T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T03:30:00.000Z",
+          "endTime": "2026-09-25T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:00:00.000Z",
+          "endTime": "2026-09-25T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:30:00.000Z",
+          "endTime": "2026-09-25T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:00:00.000Z",
+          "endTime": "2026-09-25T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:30:00.000Z",
+          "endTime": "2026-09-25T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T06:00:00.000Z",
+          "endTime": "2026-09-25T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T08:30:00.000Z",
+          "endTime": "2026-09-25T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:00:00.000Z",
+          "endTime": "2026-09-25T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:30:00.000Z",
+          "endTime": "2026-09-25T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:00:00.000Z",
+          "endTime": "2026-09-25T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:30:00.000Z",
+          "endTime": "2026-09-25T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T11:00:00.000Z",
+          "endTime": "2026-09-25T11:45:00.000Z",
+          "isAvailable": true
+        }
+      ],
+      "success": true,
+      "latencyMs": 2,
+      "timestamp": "2026-09-18T18:14:07.956Z"
+    },
+    {
+      "id": "cap-exec-8d2a9657",
+      "capabilityName": "search_doctors",
+      "correlationId": "corr-0abf99cd",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "specialty": "Neurology"
+      },
+      "result": [
+        {
+          "id": "doc-3",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Elena Rostova",
+          "photoUrl": "https://images.unsplash.com/photo-1594824813588-4686414777c6?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Neurology",
+          "department": "Neuroscience Institute",
+          "qualifications": [
+            "MD",
+            "PhD Neuroscience",
+            "Board Certified Neurology"
+          ],
+          "experienceYears": 16,
+          "consultationFee": 250,
+          "languages": [
+            "English",
+            "Russian"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 45,
+          "externalProviderId": "CERNER-PRV-ROST-118",
+          "status": "Active",
+          "bio": "Neurologist specializing in severe migraine, neuropathy, neurological sleep disturbances, and cognitive health.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        }
+      ],
+      "success": true,
+      "latencyMs": 1,
+      "timestamp": "2026-09-18T18:28:19.779Z"
+    },
+    {
+      "id": "cap-exec-e0c56970",
+      "capabilityName": "check_availability",
+      "correlationId": "corr-0abf99cd",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "doctorId": "doc-3"
+      },
+      "result": [
+        {
+          "id": "slot-doc-3-2026-09-21-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:00:00.000Z",
+          "endTime": "2026-09-21T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:30:00.000Z",
+          "endTime": "2026-09-21T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:00:00.000Z",
+          "endTime": "2026-09-21T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:30:00.000Z",
+          "endTime": "2026-09-21T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T06:00:00.000Z",
+          "endTime": "2026-09-21T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T08:30:00.000Z",
+          "endTime": "2026-09-21T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:00:00.000Z",
+          "endTime": "2026-09-21T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:30:00.000Z",
+          "endTime": "2026-09-21T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:00:00.000Z",
+          "endTime": "2026-09-21T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:30:00.000Z",
+          "endTime": "2026-09-21T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T11:00:00.000Z",
+          "endTime": "2026-09-21T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T03:30:00.000Z",
+          "endTime": "2026-09-22T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:00:00.000Z",
+          "endTime": "2026-09-22T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:30:00.000Z",
+          "endTime": "2026-09-22T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:00:00.000Z",
+          "endTime": "2026-09-22T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:30:00.000Z",
+          "endTime": "2026-09-22T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T06:00:00.000Z",
+          "endTime": "2026-09-22T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T08:30:00.000Z",
+          "endTime": "2026-09-22T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:00:00.000Z",
+          "endTime": "2026-09-22T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:30:00.000Z",
+          "endTime": "2026-09-22T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:00:00.000Z",
+          "endTime": "2026-09-22T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:30:00.000Z",
+          "endTime": "2026-09-22T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T11:00:00.000Z",
+          "endTime": "2026-09-22T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T03:30:00.000Z",
+          "endTime": "2026-09-23T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:00:00.000Z",
+          "endTime": "2026-09-23T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:30:00.000Z",
+          "endTime": "2026-09-23T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:00:00.000Z",
+          "endTime": "2026-09-23T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:30:00.000Z",
+          "endTime": "2026-09-23T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T06:00:00.000Z",
+          "endTime": "2026-09-23T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T08:30:00.000Z",
+          "endTime": "2026-09-23T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:00:00.000Z",
+          "endTime": "2026-09-23T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:30:00.000Z",
+          "endTime": "2026-09-23T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:00:00.000Z",
+          "endTime": "2026-09-23T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:30:00.000Z",
+          "endTime": "2026-09-23T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T11:00:00.000Z",
+          "endTime": "2026-09-23T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T03:30:00.000Z",
+          "endTime": "2026-09-24T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:00:00.000Z",
+          "endTime": "2026-09-24T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:30:00.000Z",
+          "endTime": "2026-09-24T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:00:00.000Z",
+          "endTime": "2026-09-24T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:30:00.000Z",
+          "endTime": "2026-09-24T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T06:00:00.000Z",
+          "endTime": "2026-09-24T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T08:30:00.000Z",
+          "endTime": "2026-09-24T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:00:00.000Z",
+          "endTime": "2026-09-24T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:30:00.000Z",
+          "endTime": "2026-09-24T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:00:00.000Z",
+          "endTime": "2026-09-24T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:30:00.000Z",
+          "endTime": "2026-09-24T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T11:00:00.000Z",
+          "endTime": "2026-09-24T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T03:30:00.000Z",
+          "endTime": "2026-09-25T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:00:00.000Z",
+          "endTime": "2026-09-25T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:30:00.000Z",
+          "endTime": "2026-09-25T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:00:00.000Z",
+          "endTime": "2026-09-25T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:30:00.000Z",
+          "endTime": "2026-09-25T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T06:00:00.000Z",
+          "endTime": "2026-09-25T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T08:30:00.000Z",
+          "endTime": "2026-09-25T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:00:00.000Z",
+          "endTime": "2026-09-25T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:30:00.000Z",
+          "endTime": "2026-09-25T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:00:00.000Z",
+          "endTime": "2026-09-25T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:30:00.000Z",
+          "endTime": "2026-09-25T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T11:00:00.000Z",
+          "endTime": "2026-09-25T11:45:00.000Z",
+          "isAvailable": true
+        }
+      ],
+      "success": true,
+      "latencyMs": 3,
+      "timestamp": "2026-09-18T18:28:19.818Z"
+    },
+    {
+      "id": "cap-exec-aee63d96",
+      "capabilityName": "search_doctors",
+      "correlationId": "corr-bd846e5a",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "specialty": ""
+      },
+      "result": [
+        {
+          "id": "doc-1",
+          "hospitalId": "hosp-1",
+          "name": "Dr. Robert Rao",
+          "photoUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Orthopedics",
+          "department": "Bone & Joint Care",
+          "qualifications": [
+            "MD",
+            "Board Certified Orthopedic Surgery",
+            "Fellow Sports Medicine"
+          ],
+          "experienceYears": 14,
+          "consultationFee": 180,
+          "languages": [
+            "English",
+            "Hindi"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "EHR-PRV-RAO-901",
+          "status": "Active",
+          "bio": "Specialist in joint reconstruction, knee pathology, and sports injuries.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-2",
+          "hospitalId": "hosp-1",
+          "name": "Dr. Sarah Jenkins",
+          "photoUrl": "https://images.unsplash.com/photo-1594824813588-4686414777c6?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Cardiology",
+          "department": "Heart Center",
+          "qualifications": [
+            "MD",
+            "FACC Cardiology Fellow",
+            "Board Certified Cardiovascular Disease"
+          ],
+          "experienceYears": 11,
+          "consultationFee": 220,
+          "languages": [
+            "English",
+            "Spanish"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video",
+            "telephone"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "EHR-PRV-JENK-442",
+          "status": "Active",
+          "bio": "Cardiologist focusing on arrhythmias, hypertension, and preventative cardiovascular health.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-ananya",
+          "hospitalId": "hosp-1",
+          "name": "Dr. Ananya Rao",
+          "photoUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&auto=format&fit=crop&q=80",
+          "specialty": "General Medicine",
+          "department": "Internal Medicine",
+          "qualifications": [
+            "MD",
+            "Board Certified Internal Medicine"
+          ],
+          "experienceYears": 12,
+          "consultationFee": 140,
+          "languages": [
+            "English",
+            "Hindi",
+            "Tamil"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "EHR-PRV-ANAN-102",
+          "status": "Active",
+          "bio": "Primary care physician specializing in chronic fatigue evaluation, systemic wellness, and diagnostic triage.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-shalini",
+          "hospitalId": "hosp-1",
+          "name": "Dr. Shalini Gupta",
+          "photoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Pulmonology",
+          "department": "Pulmonology Center",
+          "qualifications": [
+            "MD",
+            "Fellow College of Chest Physicians (FCCP)"
+          ],
+          "experienceYears": 15,
+          "consultationFee": 200,
+          "languages": [
+            "English",
+            "Hindi"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "EHR-PRV-SHAL-331",
+          "status": "Active",
+          "bio": "Pulmonologist dedicated to asthma management, chronic cough diagnosis, and sleep-related breathing disorders.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-rajesh",
+          "hospitalId": "hosp-1",
+          "name": "Dr. Rajesh Verma",
+          "photoUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Gastroenterology",
+          "department": "Gastroenterology Clinic",
+          "qualifications": [
+            "MD",
+            "Fellow American Gastroenterological Association (AGAF)"
+          ],
+          "experienceYears": 18,
+          "consultationFee": 210,
+          "languages": [
+            "English",
+            "Punjabi"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "EHR-PRV-RAJE-519",
+          "status": "Active",
+          "bio": "Consultant gastroenterologist specializing in reflux disorders, irritable bowel syndrome, and digestive health.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-3",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Elena Rostova",
+          "photoUrl": "https://images.unsplash.com/photo-1594824813588-4686414777c6?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Neurology",
+          "department": "Neuroscience Institute",
+          "qualifications": [
+            "MD",
+            "PhD Neuroscience",
+            "Board Certified Neurology"
+          ],
+          "experienceYears": 16,
+          "consultationFee": 250,
+          "languages": [
+            "English",
+            "Russian"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 45,
+          "externalProviderId": "CERNER-PRV-ROST-118",
+          "status": "Active",
+          "bio": "Neurologist specializing in severe migraine, neuropathy, neurological sleep disturbances, and cognitive health.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-vikram",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Vikram Singh",
+          "photoUrl": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Orthopedics",
+          "department": "Orthopedic Surgery",
+          "qualifications": [
+            "MS Orthopedics",
+            "FRCS Glasgow",
+            "Fellow Arthroplasty"
+          ],
+          "experienceYears": 17,
+          "consultationFee": 190,
+          "languages": [
+            "English",
+            "Hindi"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "CERNER-PRV-VIKR-401",
+          "status": "Active",
+          "bio": "Orthopedic surgeon focusing on knee replacement, arthroscopy, and complex ligament injuries.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-sneha",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Sneha Patel",
+          "photoUrl": "https://images.unsplash.com/photo-1623854767648-e7bb8009f0db?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Dermatology",
+          "department": "Dermatology & Skin Health",
+          "qualifications": [
+            "MD Dermatology",
+            "Fellow American Academy of Dermatology"
+          ],
+          "experienceYears": 10,
+          "consultationFee": 160,
+          "languages": [
+            "English",
+            "Gujarati"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 20,
+          "externalProviderId": "CERNER-PRV-SNEH-224",
+          "status": "Active",
+          "bio": "Dermatologist treating inflammatory skin rashes, psoriasis, eczema, acne, and skin allergies.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-daniel",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Daniel Cho",
+          "photoUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=300&auto=format&fit=crop&q=80",
+          "specialty": "ENT",
+          "department": "ENT & Otolaryngology",
+          "qualifications": [
+            "MD",
+            "Board Certified Otolaryngology"
+          ],
+          "experienceYears": 13,
+          "consultationFee": 175,
+          "languages": [
+            "English",
+            "Korean"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "CERNER-PRV-DANI-661",
+          "status": "Active",
+          "bio": "ENT specialist treating sinus pressure, chronic ear pain, hearing disorders, and throat pathology.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-anita",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Anita Desai",
+          "photoUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Pediatrics",
+          "department": "Pediatric Pavilion",
+          "qualifications": [
+            "MD Pediatrics",
+            "FAAP Fellow American Academy of Pediatrics"
+          ],
+          "experienceYears": 14,
+          "consultationFee": 150,
+          "languages": [
+            "English",
+            "Marathi"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "CERNER-PRV-ANIT-808",
+          "status": "Active",
+          "bio": "Compassionate pediatrician focusing on infant wellness, pediatric development, and acute childhood illnesses.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-meera",
+          "hospitalId": "hosp-3",
+          "name": "Dr. Meera Nair",
+          "photoUrl": "https://images.unsplash.com/photo-1594824813588-4686414777c6?w=300&auto=format&fit=crop&q=80",
+          "specialty": "General Medicine",
+          "department": "Primary Care & Family Medicine",
+          "qualifications": [
+            "MD Family Medicine",
+            "Board Certified General Practitioner"
+          ],
+          "experienceYears": 15,
+          "consultationFee": 110,
+          "languages": [
+            "English",
+            "Malayalam"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video",
+            "telephone"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "ATHENA-PRV-MEER-190",
+          "status": "Active",
+          "bio": "Dedicated primary care physician providing holistic assessments for fatigue, daytime sleepiness, and lifestyle medicine.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-karthik",
+          "hospitalId": "hosp-3",
+          "name": "Dr. Karthik Rao",
+          "photoUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Cardiology",
+          "department": "Cardiovascular Annex",
+          "qualifications": [
+            "MD Cardiology",
+            "FESC European Society of Cardiology"
+          ],
+          "experienceYears": 13,
+          "consultationFee": 180,
+          "languages": [
+            "English",
+            "Kannada"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "ATHENA-PRV-KART-712",
+          "status": "Active",
+          "bio": "Clinical cardiologist specializing in palpitations, blood pressure control, and outpatient cardiovascular wellness.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-kavita",
+          "hospitalId": "hosp-3",
+          "name": "Dr. Kavita Krishnan",
+          "photoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Gynecology",
+          "department": "Women's Reproductive Health",
+          "qualifications": [
+            "MD Obstetrics & Gynecology",
+            "FACOG Fellow"
+          ],
+          "experienceYears": 16,
+          "consultationFee": 165,
+          "languages": [
+            "English",
+            "Tamil"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "ATHENA-PRV-KAVI-338",
+          "status": "Active",
+          "bio": "Gynecologist specializing in menstrual irregularity, pelvic pain, reproductive health, and wellness screenings.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-suresh",
+          "hospitalId": "hosp-3",
+          "name": "Dr. Suresh Menon",
+          "photoUrl": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Urology",
+          "department": "Urology Center",
+          "qualifications": [
+            "MCh Urology",
+            "Fellow American Urological Association"
+          ],
+          "experienceYears": 19,
+          "consultationFee": 195,
+          "languages": [
+            "English",
+            "Malayalam"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "ATHENA-PRV-SURE-914",
+          "status": "Active",
+          "bio": "Urologist evaluating urinary symptoms, bladder health, kidney stone prevention, and prostate wellness.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-maya",
+          "hospitalId": "hosp-3",
+          "name": "Dr. Maya Lin",
+          "photoUrl": "https://images.unsplash.com/photo-1623854767648-e7bb8009f0db?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Psychiatry",
+          "department": "Behavioral Health & Psychiatry",
+          "qualifications": [
+            "MD Psychiatry",
+            "Board Certified Adult Psychiatry"
+          ],
+          "experienceYears": 11,
+          "consultationFee": 210,
+          "languages": [
+            "English",
+            "Mandarin"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 45,
+          "externalProviderId": "ATHENA-PRV-MAYA-440",
+          "status": "Active",
+          "bio": "Psychiatrist offering compassionate support for anxiety, mood disorders, insomnia, and stress management.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-farhan",
+          "hospitalId": "hosp-4",
+          "name": "Dr. Farhan Akhtar",
+          "photoUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Ophthalmology",
+          "department": "Eye Institute",
+          "qualifications": [
+            "MD Ophthalmology",
+            "FACS Fellow American College of Surgeons"
+          ],
+          "experienceYears": 14,
+          "consultationFee": 170,
+          "languages": [
+            "English",
+            "Urdu"
+          ],
+          "consultationTypes": [
+            "in-person"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "APEX-PRV-FARH-502",
+          "status": "Active",
+          "bio": "Ophthalmologist providing comprehensive visual evaluations, cataract management, and anterior segment care.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        },
+        {
+          "id": "doc-sunita",
+          "hospitalId": "hosp-4",
+          "name": "Dr. Sunita Rao",
+          "photoUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Endocrinology",
+          "department": "Endocrine & Metabolic Care",
+          "qualifications": [
+            "MD Endocrinology",
+            "Fellow Endocrine Society"
+          ],
+          "experienceYears": 13,
+          "consultationFee": 195,
+          "languages": [
+            "English",
+            "Telugu"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "APEX-PRV-SUNI-227",
+          "status": "Active",
+          "bio": "Endocrinologist specializing in diabetes optimization, thyroid disorders, and metabolic health.",
+          "createdAt": "2026-09-18T11:55:42.649Z"
+        },
+        {
+          "id": "doc-david",
+          "hospitalId": "hosp-4",
+          "name": "Dr. David Miller",
+          "photoUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Nephrology",
+          "department": "Nephrology & Renal Center",
+          "qualifications": [
+            "MD Nephrology",
+            "FASN Fellow American Society of Nephrology"
+          ],
+          "experienceYears": 20,
+          "consultationFee": 225,
+          "languages": [
+            "English"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 45,
+          "externalProviderId": "APEX-PRV-DAVI-113",
+          "status": "Active",
+          "bio": "Senior nephrologist focusing on renal preservation, chronic kidney care, and resistant hypertension.",
+          "createdAt": "2026-09-18T11:55:42.649Z"
+        },
+        {
+          "id": "doc-preeti",
+          "hospitalId": "hosp-4",
+          "name": "Dr. Preeti Joshi",
+          "photoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Rheumatology",
+          "department": "Rheumatology & Autoimmune Care",
+          "qualifications": [
+            "MD Rheumatology",
+            "Fellow American College of Rheumatology"
+          ],
+          "experienceYears": 12,
+          "consultationFee": 190,
+          "languages": [
+            "English",
+            "Hindi"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 30,
+          "externalProviderId": "APEX-PRV-PREE-991",
+          "status": "Active",
+          "bio": "Rheumatologist specializing in autoimmune joint inflammation, rheumatoid arthritis, and lupus.",
+          "createdAt": "2026-09-18T11:55:42.649Z"
+        },
+        {
+          "id": "doc-rohan",
+          "hospitalId": "hosp-4",
+          "name": "Dr. Rohan Kapoor",
+          "photoUrl": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Physiotherapy",
+          "department": "Physical Therapy & Rehab",
+          "qualifications": [
+            "MPT Musculoskeletal",
+            "Certified Orthopedic Manual Therapist"
+          ],
+          "experienceYears": 9,
+          "consultationFee": 95,
+          "languages": [
+            "English",
+            "Hindi"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 45,
+          "externalProviderId": "APEX-PRV-ROHA-603",
+          "status": "Active",
+          "bio": "Physiotherapist dedicated to spine rehabilitation, sports injury recovery, and mobility restoration.",
+          "createdAt": "2026-09-18T11:55:42.649Z"
+        }
+      ],
+      "success": true,
+      "latencyMs": 0,
+      "timestamp": "2026-09-18T18:39:13.812Z"
+    },
+    {
+      "id": "cap-exec-9f8d170f",
+      "capabilityName": "check_availability",
+      "correlationId": "corr-bd846e5a",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "doctorId": "doc-1"
+      },
+      "result": [
+        {
+          "id": "slot-doc-1-2026-09-21-0900",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T03:30:00.000Z",
+          "endTime": "2026-09-21T04:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-21-0930",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T04:00:00.000Z",
+          "endTime": "2026-09-21T04:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-21-1000",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T04:30:00.000Z",
+          "endTime": "2026-09-21T05:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-21-1030",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T05:00:00.000Z",
+          "endTime": "2026-09-21T05:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-21-1100",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T05:30:00.000Z",
+          "endTime": "2026-09-21T06:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-21-1130",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T06:00:00.000Z",
+          "endTime": "2026-09-21T06:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-21-1400",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T08:30:00.000Z",
+          "endTime": "2026-09-21T09:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-21-1430",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T09:00:00.000Z",
+          "endTime": "2026-09-21T09:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-21-1500",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T09:30:00.000Z",
+          "endTime": "2026-09-21T10:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-21-1530",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T10:00:00.000Z",
+          "endTime": "2026-09-21T10:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-21-1600",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T10:30:00.000Z",
+          "endTime": "2026-09-21T11:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-21-1630",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-21T11:00:00.000Z",
+          "endTime": "2026-09-21T11:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-0900",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T03:30:00.000Z",
+          "endTime": "2026-09-22T04:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-0930",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T04:00:00.000Z",
+          "endTime": "2026-09-22T04:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-1000",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T04:30:00.000Z",
+          "endTime": "2026-09-22T05:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-1030",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T05:00:00.000Z",
+          "endTime": "2026-09-22T05:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-1100",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T05:30:00.000Z",
+          "endTime": "2026-09-22T06:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-1130",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T06:00:00.000Z",
+          "endTime": "2026-09-22T06:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-1400",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T08:30:00.000Z",
+          "endTime": "2026-09-22T09:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-1430",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T09:00:00.000Z",
+          "endTime": "2026-09-22T09:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-1500",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T09:30:00.000Z",
+          "endTime": "2026-09-22T10:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-1530",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T10:00:00.000Z",
+          "endTime": "2026-09-22T10:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-1600",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T10:30:00.000Z",
+          "endTime": "2026-09-22T11:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-22-1630",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-22T11:00:00.000Z",
+          "endTime": "2026-09-22T11:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-0900",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T03:30:00.000Z",
+          "endTime": "2026-09-23T04:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-0930",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T04:00:00.000Z",
+          "endTime": "2026-09-23T04:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-1000",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T04:30:00.000Z",
+          "endTime": "2026-09-23T05:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-1030",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T05:00:00.000Z",
+          "endTime": "2026-09-23T05:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-1100",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T05:30:00.000Z",
+          "endTime": "2026-09-23T06:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-1130",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T06:00:00.000Z",
+          "endTime": "2026-09-23T06:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-1400",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T08:30:00.000Z",
+          "endTime": "2026-09-23T09:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-1430",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T09:00:00.000Z",
+          "endTime": "2026-09-23T09:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-1500",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T09:30:00.000Z",
+          "endTime": "2026-09-23T10:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-1530",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T10:00:00.000Z",
+          "endTime": "2026-09-23T10:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-1600",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T10:30:00.000Z",
+          "endTime": "2026-09-23T11:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-23-1630",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-23T11:00:00.000Z",
+          "endTime": "2026-09-23T11:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-0900",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T03:30:00.000Z",
+          "endTime": "2026-09-24T04:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-0930",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T04:00:00.000Z",
+          "endTime": "2026-09-24T04:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-1000",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T04:30:00.000Z",
+          "endTime": "2026-09-24T05:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-1030",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T05:00:00.000Z",
+          "endTime": "2026-09-24T05:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-1100",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T05:30:00.000Z",
+          "endTime": "2026-09-24T06:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-1130",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T06:00:00.000Z",
+          "endTime": "2026-09-24T06:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-1400",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T08:30:00.000Z",
+          "endTime": "2026-09-24T09:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-1430",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T09:00:00.000Z",
+          "endTime": "2026-09-24T09:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-1500",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T09:30:00.000Z",
+          "endTime": "2026-09-24T10:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-1530",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T10:00:00.000Z",
+          "endTime": "2026-09-24T10:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-1600",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T10:30:00.000Z",
+          "endTime": "2026-09-24T11:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-24-1630",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-24T11:00:00.000Z",
+          "endTime": "2026-09-24T11:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-0900",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T03:30:00.000Z",
+          "endTime": "2026-09-25T04:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-0930",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T04:00:00.000Z",
+          "endTime": "2026-09-25T04:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-1000",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T04:30:00.000Z",
+          "endTime": "2026-09-25T05:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-1030",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T05:00:00.000Z",
+          "endTime": "2026-09-25T05:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-1100",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T05:30:00.000Z",
+          "endTime": "2026-09-25T06:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-1130",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T06:00:00.000Z",
+          "endTime": "2026-09-25T06:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-1400",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T08:30:00.000Z",
+          "endTime": "2026-09-25T09:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-1430",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T09:00:00.000Z",
+          "endTime": "2026-09-25T09:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-1500",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T09:30:00.000Z",
+          "endTime": "2026-09-25T10:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-1530",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T10:00:00.000Z",
+          "endTime": "2026-09-25T10:30:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-1600",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T10:30:00.000Z",
+          "endTime": "2026-09-25T11:00:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-1-2026-09-25-1630",
+          "doctorId": "doc-1",
+          "hospitalId": "hosp-1",
+          "startTime": "2026-09-25T11:00:00.000Z",
+          "endTime": "2026-09-25T11:30:00.000Z",
+          "isAvailable": true
+        }
+      ],
+      "success": true,
+      "latencyMs": 1,
+      "timestamp": "2026-09-18T18:39:13.822Z"
+    },
+    {
+      "id": "cap-exec-db6be112",
+      "capabilityName": "search_doctors",
+      "correlationId": "corr-d3b400bb",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "specialty": "Neurology"
+      },
+      "result": [
+        {
+          "id": "doc-3",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Elena Rostova",
+          "photoUrl": "https://images.unsplash.com/photo-1594824813588-4686414777c6?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Neurology",
+          "department": "Neuroscience Institute",
+          "qualifications": [
+            "MD",
+            "PhD Neuroscience",
+            "Board Certified Neurology"
+          ],
+          "experienceYears": 16,
+          "consultationFee": 250,
+          "languages": [
+            "English",
+            "Russian"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 45,
+          "externalProviderId": "CERNER-PRV-ROST-118",
+          "status": "Active",
+          "bio": "Neurologist specializing in severe migraine, neuropathy, neurological sleep disturbances, and cognitive health.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        }
+      ],
+      "success": true,
+      "latencyMs": 0,
+      "timestamp": "2026-09-18T18:39:32.502Z"
+    },
+    {
+      "id": "cap-exec-dc06d7cd",
+      "capabilityName": "check_availability",
+      "correlationId": "corr-d3b400bb",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "doctorId": "doc-3"
+      },
+      "result": [
+        {
+          "id": "slot-doc-3-2026-09-21-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:00:00.000Z",
+          "endTime": "2026-09-21T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:30:00.000Z",
+          "endTime": "2026-09-21T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:00:00.000Z",
+          "endTime": "2026-09-21T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:30:00.000Z",
+          "endTime": "2026-09-21T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T06:00:00.000Z",
+          "endTime": "2026-09-21T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T08:30:00.000Z",
+          "endTime": "2026-09-21T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:00:00.000Z",
+          "endTime": "2026-09-21T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:30:00.000Z",
+          "endTime": "2026-09-21T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:00:00.000Z",
+          "endTime": "2026-09-21T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:30:00.000Z",
+          "endTime": "2026-09-21T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T11:00:00.000Z",
+          "endTime": "2026-09-21T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T03:30:00.000Z",
+          "endTime": "2026-09-22T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:00:00.000Z",
+          "endTime": "2026-09-22T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:30:00.000Z",
+          "endTime": "2026-09-22T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:00:00.000Z",
+          "endTime": "2026-09-22T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:30:00.000Z",
+          "endTime": "2026-09-22T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T06:00:00.000Z",
+          "endTime": "2026-09-22T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T08:30:00.000Z",
+          "endTime": "2026-09-22T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:00:00.000Z",
+          "endTime": "2026-09-22T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:30:00.000Z",
+          "endTime": "2026-09-22T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:00:00.000Z",
+          "endTime": "2026-09-22T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:30:00.000Z",
+          "endTime": "2026-09-22T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T11:00:00.000Z",
+          "endTime": "2026-09-22T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T03:30:00.000Z",
+          "endTime": "2026-09-23T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:00:00.000Z",
+          "endTime": "2026-09-23T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:30:00.000Z",
+          "endTime": "2026-09-23T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:00:00.000Z",
+          "endTime": "2026-09-23T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:30:00.000Z",
+          "endTime": "2026-09-23T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T06:00:00.000Z",
+          "endTime": "2026-09-23T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T08:30:00.000Z",
+          "endTime": "2026-09-23T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:00:00.000Z",
+          "endTime": "2026-09-23T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:30:00.000Z",
+          "endTime": "2026-09-23T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:00:00.000Z",
+          "endTime": "2026-09-23T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:30:00.000Z",
+          "endTime": "2026-09-23T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T11:00:00.000Z",
+          "endTime": "2026-09-23T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T03:30:00.000Z",
+          "endTime": "2026-09-24T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:00:00.000Z",
+          "endTime": "2026-09-24T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:30:00.000Z",
+          "endTime": "2026-09-24T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:00:00.000Z",
+          "endTime": "2026-09-24T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:30:00.000Z",
+          "endTime": "2026-09-24T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T06:00:00.000Z",
+          "endTime": "2026-09-24T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T08:30:00.000Z",
+          "endTime": "2026-09-24T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:00:00.000Z",
+          "endTime": "2026-09-24T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:30:00.000Z",
+          "endTime": "2026-09-24T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:00:00.000Z",
+          "endTime": "2026-09-24T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:30:00.000Z",
+          "endTime": "2026-09-24T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T11:00:00.000Z",
+          "endTime": "2026-09-24T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T03:30:00.000Z",
+          "endTime": "2026-09-25T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:00:00.000Z",
+          "endTime": "2026-09-25T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:30:00.000Z",
+          "endTime": "2026-09-25T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:00:00.000Z",
+          "endTime": "2026-09-25T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:30:00.000Z",
+          "endTime": "2026-09-25T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T06:00:00.000Z",
+          "endTime": "2026-09-25T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T08:30:00.000Z",
+          "endTime": "2026-09-25T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:00:00.000Z",
+          "endTime": "2026-09-25T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:30:00.000Z",
+          "endTime": "2026-09-25T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:00:00.000Z",
+          "endTime": "2026-09-25T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:30:00.000Z",
+          "endTime": "2026-09-25T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T11:00:00.000Z",
+          "endTime": "2026-09-25T11:45:00.000Z",
+          "isAvailable": true
+        }
+      ],
+      "success": true,
+      "latencyMs": 1,
+      "timestamp": "2026-09-18T18:39:32.514Z"
+    },
+    {
+      "id": "cap-exec-3dfad2c3",
+      "capabilityName": "search_doctors",
+      "correlationId": "corr-ac62b289",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "specialty": "Neurology"
+      },
+      "result": [
+        {
+          "id": "doc-3",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Elena Rostova",
+          "photoUrl": "https://images.unsplash.com/photo-1594824813588-4686414777c6?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Neurology",
+          "department": "Neuroscience Institute",
+          "qualifications": [
+            "MD",
+            "PhD Neuroscience",
+            "Board Certified Neurology"
+          ],
+          "experienceYears": 16,
+          "consultationFee": 250,
+          "languages": [
+            "English",
+            "Russian"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 45,
+          "externalProviderId": "CERNER-PRV-ROST-118",
+          "status": "Active",
+          "bio": "Neurologist specializing in severe migraine, neuropathy, neurological sleep disturbances, and cognitive health.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        }
+      ],
+      "success": true,
+      "latencyMs": 0,
+      "timestamp": "2026-09-18T18:57:11.345Z"
+    },
+    {
+      "id": "cap-exec-62268969",
+      "capabilityName": "check_availability",
+      "correlationId": "corr-ac62b289",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "doctorId": "doc-3"
+      },
+      "result": [
+        {
+          "id": "slot-doc-3-2026-09-21-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:00:00.000Z",
+          "endTime": "2026-09-21T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:30:00.000Z",
+          "endTime": "2026-09-21T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:00:00.000Z",
+          "endTime": "2026-09-21T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:30:00.000Z",
+          "endTime": "2026-09-21T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T06:00:00.000Z",
+          "endTime": "2026-09-21T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T08:30:00.000Z",
+          "endTime": "2026-09-21T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:00:00.000Z",
+          "endTime": "2026-09-21T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:30:00.000Z",
+          "endTime": "2026-09-21T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:00:00.000Z",
+          "endTime": "2026-09-21T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:30:00.000Z",
+          "endTime": "2026-09-21T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T11:00:00.000Z",
+          "endTime": "2026-09-21T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T03:30:00.000Z",
+          "endTime": "2026-09-22T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:00:00.000Z",
+          "endTime": "2026-09-22T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:30:00.000Z",
+          "endTime": "2026-09-22T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:00:00.000Z",
+          "endTime": "2026-09-22T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:30:00.000Z",
+          "endTime": "2026-09-22T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T06:00:00.000Z",
+          "endTime": "2026-09-22T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T08:30:00.000Z",
+          "endTime": "2026-09-22T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:00:00.000Z",
+          "endTime": "2026-09-22T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:30:00.000Z",
+          "endTime": "2026-09-22T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:00:00.000Z",
+          "endTime": "2026-09-22T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:30:00.000Z",
+          "endTime": "2026-09-22T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T11:00:00.000Z",
+          "endTime": "2026-09-22T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T03:30:00.000Z",
+          "endTime": "2026-09-23T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:00:00.000Z",
+          "endTime": "2026-09-23T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:30:00.000Z",
+          "endTime": "2026-09-23T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:00:00.000Z",
+          "endTime": "2026-09-23T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:30:00.000Z",
+          "endTime": "2026-09-23T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T06:00:00.000Z",
+          "endTime": "2026-09-23T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T08:30:00.000Z",
+          "endTime": "2026-09-23T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:00:00.000Z",
+          "endTime": "2026-09-23T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:30:00.000Z",
+          "endTime": "2026-09-23T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:00:00.000Z",
+          "endTime": "2026-09-23T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:30:00.000Z",
+          "endTime": "2026-09-23T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T11:00:00.000Z",
+          "endTime": "2026-09-23T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T03:30:00.000Z",
+          "endTime": "2026-09-24T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:00:00.000Z",
+          "endTime": "2026-09-24T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:30:00.000Z",
+          "endTime": "2026-09-24T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:00:00.000Z",
+          "endTime": "2026-09-24T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:30:00.000Z",
+          "endTime": "2026-09-24T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T06:00:00.000Z",
+          "endTime": "2026-09-24T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T08:30:00.000Z",
+          "endTime": "2026-09-24T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:00:00.000Z",
+          "endTime": "2026-09-24T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:30:00.000Z",
+          "endTime": "2026-09-24T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:00:00.000Z",
+          "endTime": "2026-09-24T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:30:00.000Z",
+          "endTime": "2026-09-24T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T11:00:00.000Z",
+          "endTime": "2026-09-24T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T03:30:00.000Z",
+          "endTime": "2026-09-25T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:00:00.000Z",
+          "endTime": "2026-09-25T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:30:00.000Z",
+          "endTime": "2026-09-25T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:00:00.000Z",
+          "endTime": "2026-09-25T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:30:00.000Z",
+          "endTime": "2026-09-25T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T06:00:00.000Z",
+          "endTime": "2026-09-25T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T08:30:00.000Z",
+          "endTime": "2026-09-25T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:00:00.000Z",
+          "endTime": "2026-09-25T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:30:00.000Z",
+          "endTime": "2026-09-25T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:00:00.000Z",
+          "endTime": "2026-09-25T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:30:00.000Z",
+          "endTime": "2026-09-25T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T11:00:00.000Z",
+          "endTime": "2026-09-25T11:45:00.000Z",
+          "isAvailable": true
+        }
+      ],
+      "success": true,
+      "latencyMs": 1,
+      "timestamp": "2026-09-18T18:57:11.355Z"
+    },
+    {
+      "id": "cap-exec-20c729c9",
+      "capabilityName": "search_doctors",
+      "correlationId": "corr-5a55a5a6",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "specialty": "Neurology"
+      },
+      "result": [
+        {
+          "id": "doc-3",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Elena Rostova",
+          "photoUrl": "https://images.unsplash.com/photo-1594824813588-4686414777c6?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Neurology",
+          "department": "Neuroscience Institute",
+          "qualifications": [
+            "MD",
+            "PhD Neuroscience",
+            "Board Certified Neurology"
+          ],
+          "experienceYears": 16,
+          "consultationFee": 250,
+          "languages": [
+            "English",
+            "Russian"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 45,
+          "externalProviderId": "CERNER-PRV-ROST-118",
+          "status": "Active",
+          "bio": "Neurologist specializing in severe migraine, neuropathy, neurological sleep disturbances, and cognitive health.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        }
+      ],
+      "success": true,
+      "latencyMs": 1,
+      "timestamp": "2026-09-18T19:04:34.722Z"
+    },
+    {
+      "id": "cap-exec-506d5dd0",
+      "capabilityName": "check_availability",
+      "correlationId": "corr-5a55a5a6",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "doctorId": "doc-3"
+      },
+      "result": [
+        {
+          "id": "slot-doc-3-2026-09-21-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:00:00.000Z",
+          "endTime": "2026-09-21T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:30:00.000Z",
+          "endTime": "2026-09-21T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:00:00.000Z",
+          "endTime": "2026-09-21T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:30:00.000Z",
+          "endTime": "2026-09-21T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T06:00:00.000Z",
+          "endTime": "2026-09-21T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T08:30:00.000Z",
+          "endTime": "2026-09-21T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:00:00.000Z",
+          "endTime": "2026-09-21T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:30:00.000Z",
+          "endTime": "2026-09-21T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:00:00.000Z",
+          "endTime": "2026-09-21T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:30:00.000Z",
+          "endTime": "2026-09-21T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T11:00:00.000Z",
+          "endTime": "2026-09-21T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T03:30:00.000Z",
+          "endTime": "2026-09-22T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:00:00.000Z",
+          "endTime": "2026-09-22T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:30:00.000Z",
+          "endTime": "2026-09-22T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:00:00.000Z",
+          "endTime": "2026-09-22T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:30:00.000Z",
+          "endTime": "2026-09-22T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T06:00:00.000Z",
+          "endTime": "2026-09-22T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T08:30:00.000Z",
+          "endTime": "2026-09-22T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:00:00.000Z",
+          "endTime": "2026-09-22T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:30:00.000Z",
+          "endTime": "2026-09-22T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:00:00.000Z",
+          "endTime": "2026-09-22T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:30:00.000Z",
+          "endTime": "2026-09-22T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T11:00:00.000Z",
+          "endTime": "2026-09-22T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T03:30:00.000Z",
+          "endTime": "2026-09-23T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:00:00.000Z",
+          "endTime": "2026-09-23T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:30:00.000Z",
+          "endTime": "2026-09-23T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:00:00.000Z",
+          "endTime": "2026-09-23T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:30:00.000Z",
+          "endTime": "2026-09-23T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T06:00:00.000Z",
+          "endTime": "2026-09-23T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T08:30:00.000Z",
+          "endTime": "2026-09-23T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:00:00.000Z",
+          "endTime": "2026-09-23T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:30:00.000Z",
+          "endTime": "2026-09-23T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:00:00.000Z",
+          "endTime": "2026-09-23T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:30:00.000Z",
+          "endTime": "2026-09-23T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T11:00:00.000Z",
+          "endTime": "2026-09-23T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T03:30:00.000Z",
+          "endTime": "2026-09-24T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:00:00.000Z",
+          "endTime": "2026-09-24T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:30:00.000Z",
+          "endTime": "2026-09-24T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:00:00.000Z",
+          "endTime": "2026-09-24T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:30:00.000Z",
+          "endTime": "2026-09-24T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T06:00:00.000Z",
+          "endTime": "2026-09-24T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T08:30:00.000Z",
+          "endTime": "2026-09-24T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:00:00.000Z",
+          "endTime": "2026-09-24T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:30:00.000Z",
+          "endTime": "2026-09-24T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:00:00.000Z",
+          "endTime": "2026-09-24T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:30:00.000Z",
+          "endTime": "2026-09-24T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T11:00:00.000Z",
+          "endTime": "2026-09-24T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T03:30:00.000Z",
+          "endTime": "2026-09-25T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:00:00.000Z",
+          "endTime": "2026-09-25T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:30:00.000Z",
+          "endTime": "2026-09-25T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:00:00.000Z",
+          "endTime": "2026-09-25T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:30:00.000Z",
+          "endTime": "2026-09-25T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T06:00:00.000Z",
+          "endTime": "2026-09-25T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T08:30:00.000Z",
+          "endTime": "2026-09-25T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:00:00.000Z",
+          "endTime": "2026-09-25T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:30:00.000Z",
+          "endTime": "2026-09-25T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:00:00.000Z",
+          "endTime": "2026-09-25T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:30:00.000Z",
+          "endTime": "2026-09-25T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T11:00:00.000Z",
+          "endTime": "2026-09-25T11:45:00.000Z",
+          "isAvailable": true
+        }
+      ],
+      "success": true,
+      "latencyMs": 2,
+      "timestamp": "2026-09-18T19:04:34.732Z"
+    },
+    {
+      "id": "cap-exec-74f7292d",
+      "capabilityName": "search_doctors",
+      "correlationId": "corr-8a1cbb7c",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "specialty": "Neurology"
+      },
+      "result": [
+        {
+          "id": "doc-3",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Elena Rostova",
+          "photoUrl": "https://images.unsplash.com/photo-1594824813588-4686414777c6?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Neurology",
+          "department": "Neuroscience Institute",
+          "qualifications": [
+            "MD",
+            "PhD Neuroscience",
+            "Board Certified Neurology"
+          ],
+          "experienceYears": 16,
+          "consultationFee": 250,
+          "languages": [
+            "English",
+            "Russian"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 45,
+          "externalProviderId": "CERNER-PRV-ROST-118",
+          "status": "Active",
+          "bio": "Neurologist specializing in severe migraine, neuropathy, neurological sleep disturbances, and cognitive health.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        }
+      ],
+      "success": true,
+      "latencyMs": 1,
+      "timestamp": "2026-09-18T19:15:00.927Z"
+    },
+    {
+      "id": "cap-exec-c6576c20",
+      "capabilityName": "check_availability",
+      "correlationId": "corr-8a1cbb7c",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "doctorId": "doc-3"
+      },
+      "result": [
+        {
+          "id": "slot-doc-3-2026-09-21-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:00:00.000Z",
+          "endTime": "2026-09-21T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:30:00.000Z",
+          "endTime": "2026-09-21T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:00:00.000Z",
+          "endTime": "2026-09-21T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:30:00.000Z",
+          "endTime": "2026-09-21T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T06:00:00.000Z",
+          "endTime": "2026-09-21T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T08:30:00.000Z",
+          "endTime": "2026-09-21T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:00:00.000Z",
+          "endTime": "2026-09-21T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:30:00.000Z",
+          "endTime": "2026-09-21T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:00:00.000Z",
+          "endTime": "2026-09-21T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:30:00.000Z",
+          "endTime": "2026-09-21T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T11:00:00.000Z",
+          "endTime": "2026-09-21T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T03:30:00.000Z",
+          "endTime": "2026-09-22T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:00:00.000Z",
+          "endTime": "2026-09-22T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:30:00.000Z",
+          "endTime": "2026-09-22T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:00:00.000Z",
+          "endTime": "2026-09-22T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:30:00.000Z",
+          "endTime": "2026-09-22T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T06:00:00.000Z",
+          "endTime": "2026-09-22T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T08:30:00.000Z",
+          "endTime": "2026-09-22T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:00:00.000Z",
+          "endTime": "2026-09-22T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:30:00.000Z",
+          "endTime": "2026-09-22T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:00:00.000Z",
+          "endTime": "2026-09-22T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:30:00.000Z",
+          "endTime": "2026-09-22T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T11:00:00.000Z",
+          "endTime": "2026-09-22T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T03:30:00.000Z",
+          "endTime": "2026-09-23T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:00:00.000Z",
+          "endTime": "2026-09-23T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:30:00.000Z",
+          "endTime": "2026-09-23T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:00:00.000Z",
+          "endTime": "2026-09-23T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:30:00.000Z",
+          "endTime": "2026-09-23T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T06:00:00.000Z",
+          "endTime": "2026-09-23T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T08:30:00.000Z",
+          "endTime": "2026-09-23T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:00:00.000Z",
+          "endTime": "2026-09-23T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:30:00.000Z",
+          "endTime": "2026-09-23T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:00:00.000Z",
+          "endTime": "2026-09-23T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:30:00.000Z",
+          "endTime": "2026-09-23T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T11:00:00.000Z",
+          "endTime": "2026-09-23T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T03:30:00.000Z",
+          "endTime": "2026-09-24T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:00:00.000Z",
+          "endTime": "2026-09-24T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:30:00.000Z",
+          "endTime": "2026-09-24T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:00:00.000Z",
+          "endTime": "2026-09-24T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:30:00.000Z",
+          "endTime": "2026-09-24T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T06:00:00.000Z",
+          "endTime": "2026-09-24T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T08:30:00.000Z",
+          "endTime": "2026-09-24T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:00:00.000Z",
+          "endTime": "2026-09-24T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:30:00.000Z",
+          "endTime": "2026-09-24T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:00:00.000Z",
+          "endTime": "2026-09-24T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:30:00.000Z",
+          "endTime": "2026-09-24T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T11:00:00.000Z",
+          "endTime": "2026-09-24T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T03:30:00.000Z",
+          "endTime": "2026-09-25T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:00:00.000Z",
+          "endTime": "2026-09-25T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:30:00.000Z",
+          "endTime": "2026-09-25T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:00:00.000Z",
+          "endTime": "2026-09-25T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:30:00.000Z",
+          "endTime": "2026-09-25T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T06:00:00.000Z",
+          "endTime": "2026-09-25T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T08:30:00.000Z",
+          "endTime": "2026-09-25T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:00:00.000Z",
+          "endTime": "2026-09-25T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:30:00.000Z",
+          "endTime": "2026-09-25T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:00:00.000Z",
+          "endTime": "2026-09-25T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:30:00.000Z",
+          "endTime": "2026-09-25T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T11:00:00.000Z",
+          "endTime": "2026-09-25T11:45:00.000Z",
+          "isAvailable": true
+        }
+      ],
+      "success": true,
+      "latencyMs": 2,
+      "timestamp": "2026-09-18T19:15:00.937Z"
+    },
+    {
+      "id": "cap-exec-fb559edc",
+      "capabilityName": "search_doctors",
+      "correlationId": "corr-3a496ac8",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "specialty": "Neurology"
+      },
+      "result": [
+        {
+          "id": "doc-3",
+          "hospitalId": "hosp-2",
+          "name": "Dr. Elena Rostova",
+          "photoUrl": "https://images.unsplash.com/photo-1594824813588-4686414777c6?w=300&auto=format&fit=crop&q=80",
+          "specialty": "Neurology",
+          "department": "Neuroscience Institute",
+          "qualifications": [
+            "MD",
+            "PhD Neuroscience",
+            "Board Certified Neurology"
+          ],
+          "experienceYears": 16,
+          "consultationFee": 250,
+          "languages": [
+            "English",
+            "Russian"
+          ],
+          "consultationTypes": [
+            "in-person",
+            "video"
+          ],
+          "appointmentDurationMinutes": 45,
+          "externalProviderId": "CERNER-PRV-ROST-118",
+          "status": "Active",
+          "bio": "Neurologist specializing in severe migraine, neuropathy, neurological sleep disturbances, and cognitive health.",
+          "createdAt": "2026-09-18T11:55:42.648Z"
+        }
+      ],
+      "success": true,
+      "latencyMs": 0,
+      "timestamp": "2026-09-18T19:28:05.132Z"
+    },
+    {
+      "id": "cap-exec-b8452904",
+      "capabilityName": "check_availability",
+      "correlationId": "corr-3a496ac8",
+      "callerId": "pat-1",
+      "role": "Patient",
+      "parameters": {
+        "doctorId": "doc-3"
+      },
+      "result": [
+        {
+          "id": "slot-doc-3-2026-09-21-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:00:00.000Z",
+          "endTime": "2026-09-21T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T04:30:00.000Z",
+          "endTime": "2026-09-21T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:00:00.000Z",
+          "endTime": "2026-09-21T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T05:30:00.000Z",
+          "endTime": "2026-09-21T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T06:00:00.000Z",
+          "endTime": "2026-09-21T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T08:30:00.000Z",
+          "endTime": "2026-09-21T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:00:00.000Z",
+          "endTime": "2026-09-21T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T09:30:00.000Z",
+          "endTime": "2026-09-21T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:00:00.000Z",
+          "endTime": "2026-09-21T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T10:30:00.000Z",
+          "endTime": "2026-09-21T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-21-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-21T11:00:00.000Z",
+          "endTime": "2026-09-21T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T03:30:00.000Z",
+          "endTime": "2026-09-22T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:00:00.000Z",
+          "endTime": "2026-09-22T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T04:30:00.000Z",
+          "endTime": "2026-09-22T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:00:00.000Z",
+          "endTime": "2026-09-22T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T05:30:00.000Z",
+          "endTime": "2026-09-22T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T06:00:00.000Z",
+          "endTime": "2026-09-22T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T08:30:00.000Z",
+          "endTime": "2026-09-22T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:00:00.000Z",
+          "endTime": "2026-09-22T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T09:30:00.000Z",
+          "endTime": "2026-09-22T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:00:00.000Z",
+          "endTime": "2026-09-22T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T10:30:00.000Z",
+          "endTime": "2026-09-22T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-22-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-22T11:00:00.000Z",
+          "endTime": "2026-09-22T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T03:30:00.000Z",
+          "endTime": "2026-09-23T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:00:00.000Z",
+          "endTime": "2026-09-23T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T04:30:00.000Z",
+          "endTime": "2026-09-23T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:00:00.000Z",
+          "endTime": "2026-09-23T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T05:30:00.000Z",
+          "endTime": "2026-09-23T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T06:00:00.000Z",
+          "endTime": "2026-09-23T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T08:30:00.000Z",
+          "endTime": "2026-09-23T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:00:00.000Z",
+          "endTime": "2026-09-23T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T09:30:00.000Z",
+          "endTime": "2026-09-23T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:00:00.000Z",
+          "endTime": "2026-09-23T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T10:30:00.000Z",
+          "endTime": "2026-09-23T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-23-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-23T11:00:00.000Z",
+          "endTime": "2026-09-23T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T03:30:00.000Z",
+          "endTime": "2026-09-24T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:00:00.000Z",
+          "endTime": "2026-09-24T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T04:30:00.000Z",
+          "endTime": "2026-09-24T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:00:00.000Z",
+          "endTime": "2026-09-24T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T05:30:00.000Z",
+          "endTime": "2026-09-24T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T06:00:00.000Z",
+          "endTime": "2026-09-24T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T08:30:00.000Z",
+          "endTime": "2026-09-24T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:00:00.000Z",
+          "endTime": "2026-09-24T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T09:30:00.000Z",
+          "endTime": "2026-09-24T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:00:00.000Z",
+          "endTime": "2026-09-24T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T10:30:00.000Z",
+          "endTime": "2026-09-24T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-24-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-24T11:00:00.000Z",
+          "endTime": "2026-09-24T11:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0900",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T03:30:00.000Z",
+          "endTime": "2026-09-25T04:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-0930",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:00:00.000Z",
+          "endTime": "2026-09-25T04:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1000",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T04:30:00.000Z",
+          "endTime": "2026-09-25T05:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1030",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:00:00.000Z",
+          "endTime": "2026-09-25T05:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1100",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T05:30:00.000Z",
+          "endTime": "2026-09-25T06:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1130",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T06:00:00.000Z",
+          "endTime": "2026-09-25T06:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1400",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T08:30:00.000Z",
+          "endTime": "2026-09-25T09:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1430",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:00:00.000Z",
+          "endTime": "2026-09-25T09:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1500",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T09:30:00.000Z",
+          "endTime": "2026-09-25T10:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1530",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:00:00.000Z",
+          "endTime": "2026-09-25T10:45:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1600",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T10:30:00.000Z",
+          "endTime": "2026-09-25T11:15:00.000Z",
+          "isAvailable": true
+        },
+        {
+          "id": "slot-doc-3-2026-09-25-1630",
+          "doctorId": "doc-3",
+          "hospitalId": "hosp-2",
+          "startTime": "2026-09-25T11:00:00.000Z",
+          "endTime": "2026-09-25T11:45:00.000Z",
+          "isAvailable": true
+        }
+      ],
+      "success": true,
+      "latencyMs": 2,
+      "timestamp": "2026-09-18T19:28:05.142Z"
     }
   ],
   "connections": [
@@ -14133,6 +19126,126 @@
       "latencyMs": 49,
       "evaluationScore": 98,
       "timestamp": "2026-09-18T12:40:13.253Z"
+    },
+    {
+      "id": "eval-dda83730",
+      "conversationId": "conv-1789755234075",
+      "patientUtterance": "I have severe headache",
+      "detectedIntent": "DOCTOR_AND_AVAILABILITY_DISCOVERED",
+      "selectedCapabilities": [
+        "search_doctors",
+        "check_availability"
+      ],
+      "safetyCheckPassed": true,
+      "clarificationRequired": false,
+      "latencyMs": 268,
+      "evaluationScore": 98,
+      "timestamp": "2026-09-18T18:14:08.176Z"
+    },
+    {
+      "id": "eval-a6878480",
+      "conversationId": "conv-1789755308681",
+      "patientUtterance": "i have severe headache",
+      "detectedIntent": "DOCTOR_AND_AVAILABILITY_DISCOVERED",
+      "selectedCapabilities": [
+        "search_doctors",
+        "check_availability"
+      ],
+      "safetyCheckPassed": true,
+      "clarificationRequired": false,
+      "latencyMs": 280,
+      "evaluationScore": 98,
+      "timestamp": "2026-09-18T18:28:19.882Z"
+    },
+    {
+      "id": "eval-56704757",
+      "conversationId": "conv-1789756742423",
+      "patientUtterance": "i have severe heaadache",
+      "detectedIntent": "DOCTOR_AND_AVAILABILITY_DISCOVERED",
+      "selectedCapabilities": [
+        "search_doctors",
+        "check_availability"
+      ],
+      "safetyCheckPassed": true,
+      "clarificationRequired": false,
+      "latencyMs": 105,
+      "evaluationScore": 98,
+      "timestamp": "2026-09-18T18:39:13.897Z"
+    },
+    {
+      "id": "eval-44819cbe",
+      "conversationId": "conv-1789756767341",
+      "patientUtterance": "I have severe headache",
+      "detectedIntent": "DOCTOR_AND_AVAILABILITY_DISCOVERED",
+      "selectedCapabilities": [
+        "search_doctors",
+        "check_availability"
+      ],
+      "safetyCheckPassed": true,
+      "clarificationRequired": false,
+      "latencyMs": 72,
+      "evaluationScore": 98,
+      "timestamp": "2026-09-18T18:39:32.555Z"
+    },
+    {
+      "id": "eval-7951fd65",
+      "conversationId": "conv-1789757819566",
+      "patientUtterance": "i have severe headache",
+      "detectedIntent": "DOCTOR_AND_AVAILABILITY_DISCOVERED",
+      "selectedCapabilities": [
+        "search_doctors",
+        "check_availability"
+      ],
+      "safetyCheckPassed": true,
+      "clarificationRequired": false,
+      "latencyMs": 88,
+      "evaluationScore": 98,
+      "timestamp": "2026-09-18T18:57:11.412Z"
+    },
+    {
+      "id": "eval-feb0f690",
+      "conversationId": "conv-1789758261807",
+      "patientUtterance": "i have severe headache",
+      "detectedIntent": "DOCTOR_AND_AVAILABILITY_DISCOVERED",
+      "selectedCapabilities": [
+        "search_doctors",
+        "check_availability"
+      ],
+      "safetyCheckPassed": true,
+      "clarificationRequired": false,
+      "latencyMs": 105,
+      "evaluationScore": 98,
+      "timestamp": "2026-09-18T19:04:34.803Z"
+    },
+    {
+      "id": "eval-31239582",
+      "conversationId": "conv-1789758882521",
+      "patientUtterance": "i have severe headache",
+      "detectedIntent": "DOCTOR_AND_AVAILABILITY_DISCOVERED",
+      "selectedCapabilities": [
+        "search_doctors",
+        "check_availability"
+      ],
+      "safetyCheckPassed": true,
+      "clarificationRequired": false,
+      "latencyMs": 108,
+      "evaluationScore": 98,
+      "timestamp": "2026-09-18T19:15:01.002Z"
+    },
+    {
+      "id": "eval-909dcd17",
+      "conversationId": "conv-1789759675136",
+      "patientUtterance": "i have severe headache",
+      "detectedIntent": "DOCTOR_AND_AVAILABILITY_DISCOVERED",
+      "selectedCapabilities": [
+        "search_doctors",
+        "check_availability"
+      ],
+      "safetyCheckPassed": true,
+      "clarificationRequired": false,
+      "latencyMs": 93,
+      "evaluationScore": 98,
+      "timestamp": "2026-09-18T19:28:05.202Z"
     }
   ]
 }

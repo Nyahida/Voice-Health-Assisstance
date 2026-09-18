@@ -6,6 +6,8 @@ import { aiAgentService } from '../services/aiAgentService.js';
 import { workflowService } from '../services/workflowService.js';
 import { v4 as uuidv4 } from 'uuid';
 import { IntegrationMode, UserRole } from '../types/entities.js';
+const param = (value: string | string[]) =>
+  Array.isArray(value) ? value[0] : value;
 
 export const apiRouter = Router();
 
@@ -51,7 +53,7 @@ apiRouter.get('/metrics', (req: Request, res: Response) => {
 });
 
 apiRouter.get('/traces/:correlationId', (req: Request, res: Response) => {
-  const trace = db.getTrace(req.params.correlationId);
+  const trace = db.getTrace(param(req.params.correlationId));
   res.json(trace);
 });
 
@@ -73,7 +75,7 @@ apiRouter.get('/hospitals', (req: Request, res: Response) => {
 });
 
 apiRouter.get('/hospitals/:id', (req: Request, res: Response) => {
-  const hosp = db.getHospitalById(req.params.id);
+  const hosp = db.getHospitalById(param(req.params.id) );
   if (!hosp) return res.status(404).json({ error: 'Hospital not found' });
   res.json(hosp);
 });
@@ -104,7 +106,7 @@ apiRouter.post('/hospitals', (req: Request, res: Response) => {
 
 apiRouter.patch('/hospitals/:id/status', (req: Request, res: Response) => {
   const { status, reason } = req.body;
-  const updated = db.updateHospital(req.params.id, { 
+  const updated = db.updateHospital(param(req.params.id), { 
     status, 
     rejectionReason: reason 
   });
@@ -126,8 +128,8 @@ apiRouter.patch('/hospitals/:id/status', (req: Request, res: Response) => {
 
 apiRouter.patch('/hospitals/:id/failure-mode', (req: Request, res: Response) => {
   const { mode } = req.body; // 'NORMAL' | 'OPTION_A_TIMEOUT_RETRY' | 'OPTION_B_UNKNOWN_OUTCOME' | 'OPTION_C_UNRECOVERABLE'
-  db.setHospitalFailureMode(req.params.id, mode as IntegrationMode);
-  res.json({ success: true, hospitalId: req.params.id, mode });
+  db.setHospitalFailureMode(param(req.params.id), mode as IntegrationMode);
+  res.json({ success: true, hospitalId: param(req.params.id), mode });
 });
 
 // ==========================================
@@ -139,24 +141,24 @@ apiRouter.get('/doctors', (req: Request, res: Response) => {
 });
 
 apiRouter.get('/doctors/:id', (req: Request, res: Response) => {
-  const doc = db.getDoctorById(req.params.id);
+  const doc = db.getDoctorById(param(req.params.id) );
   if (!doc) return res.status(404).json({ error: 'Doctor not found' });
   res.json(doc);
 });
 
 apiRouter.get('/doctors/:id/calendar', (req: Request, res: Response) => {
-  const cal = db.getDoctorCalendar(req.params.id);
-  const blocked = db.getBlockedSlots(req.params.id);
+  const cal = db.getDoctorCalendar(param(req.params.id));
+  const blocked = db.getBlockedSlots(param(req.params.id) );
   res.json({ calendar: cal, blockedSlots: blocked });
 });
 
 apiRouter.post('/doctors/:id/blocked-slots', (req: Request, res: Response) => {
-  const doc = db.getDoctorById(req.params.id);
+  const doc = db.getDoctorById(param(req.params.id) );
   if (!doc) return res.status(404).json({ error: 'Doctor not found' });
 
   const blocked = db.addBlockedSlot({
     id: `block-${uuidv4().substring(0, 8)}`,
-    doctorId: req.params.id,
+    doctorId: param(req.params.id) ,
     hospitalId: doc.hospitalId,
     startTime: req.body.startTime,
     endTime: req.body.endTime,
@@ -168,7 +170,7 @@ apiRouter.post('/doctors/:id/blocked-slots', (req: Request, res: Response) => {
 });
 
 apiRouter.delete('/doctors/blocked-slots/:id', (req: Request, res: Response) => {
-  const deleted = db.deleteBlockedSlot(req.params.id);
+  const deleted = db.deleteBlockedSlot(param(req.params.id) );
   res.json({ success: deleted });
 });
 
@@ -211,7 +213,7 @@ apiRouter.get('/appointments', (req: Request, res: Response) => {
 });
 
 apiRouter.get('/appointments/:id', (req: Request, res: Response) => {
-  const appt = db.getAppointmentById(req.params.id);
+  const appt = db.getAppointmentById(param(req.params.id) );
   if (!appt) return res.status(404).json({ error: 'Appointment not found' });
   res.json(appt);
 });
@@ -249,7 +251,7 @@ apiRouter.post('/appointments/:id/reschedule', async (req: Request, res: Respons
   const { newSlotId, reason } = req.body;
   const correlationId = `corr-${uuidv4().substring(0, 8)}`;
   const result = await capabilitiesService.executeCapability('reschedule_appointment', {
-    appointmentId: req.params.id,
+    appointmentId: param(req.params.id) ,
     newSlotId,
     reason
   }, correlationId, 'patient', 'Patient');
@@ -261,7 +263,7 @@ apiRouter.post('/appointments/:id/cancel', async (req: Request, res: Response) =
   const { reason } = req.body;
   const correlationId = `corr-${uuidv4().substring(0, 8)}`;
   const result = await capabilitiesService.executeCapability('cancel_appointment', {
-    appointmentId: req.params.id,
+    appointmentId: param(req.params.id) ,
     reason: reason || 'Patient cancelled'
   }, correlationId, 'patient', 'Patient');
 
@@ -269,7 +271,7 @@ apiRouter.post('/appointments/:id/cancel', async (req: Request, res: Response) =
     await workflowService.triggerEvent(
       'APPOINTMENT_CANCELLED',
       'Appointment',
-      req.params.id,
+      param(req.params.id) ,
       correlationId
     );
   }
@@ -284,7 +286,7 @@ apiRouter.get('/reconciliation', (req: Request, res: Response) => {
 
 apiRouter.post('/reconciliation/:id/resolve', (req: Request, res: Response) => {
   const { resolvedBy } = req.body;
-  const resolved = db.resolveReconciliation(req.params.id, resolvedBy || 'Clinical Staff');
+  const resolved = db.resolveReconciliation(param(req.params.id) , resolvedBy || 'Clinical Staff');
   res.json({ success: resolved });
 });
 
@@ -331,13 +333,13 @@ apiRouter.get('/patients', (req: Request, res: Response) => {
 });
 
 apiRouter.get('/patients/:id', (req: Request, res: Response) => {
-  const pat = db.getPatientById(req.params.id);
+  const pat = db.getPatientById(param(req.params.id) );
   if (!pat) return res.status(404).json({ error: 'Patient not found' });
   res.json(pat);
 });
 
 apiRouter.get('/patients/:id/context', (req: Request, res: Response) => {
-  res.json(db.getUserContext(req.params.id));
+  res.json(db.getUserContext(param(req.params.id) ));
 });
 
 // ==========================================
@@ -378,7 +380,7 @@ apiRouter.get('/departments', (req: Request, res: Response) => {
 });
 
 apiRouter.get('/departments/:id', (req: Request, res: Response) => {
-  const dept = db.getDepartmentById(req.params.id);
+  const dept = db.getDepartmentById(param(req.params.id) );
   if (!dept) return res.status(404).json({ error: 'Department not found' });
   res.json(dept);
 });
@@ -405,7 +407,7 @@ apiRouter.post('/departments', (req: Request, res: Response) => {
 });
 
 apiRouter.patch('/departments/:id', (req: Request, res: Response) => {
-  const updated = db.updateDepartment(req.params.id, req.body);
+  const updated = db.updateDepartment(param(req.params.id) , req.body);
   if (!updated) return res.status(404).json({ error: 'Department not found' });
 
   db.logAuditEvent({
@@ -414,7 +416,7 @@ apiRouter.patch('/departments/:id', (req: Request, res: Response) => {
     actorId: 'admin',
     action: 'DEPARTMENT_UPDATED',
     entityType: 'Department',
-    entityId: req.params.id,
+    entityId: param(req.params.id) ,
     details: req.body,
     timestamp: new Date().toISOString()
   });
@@ -423,7 +425,7 @@ apiRouter.patch('/departments/:id', (req: Request, res: Response) => {
 });
 
 apiRouter.delete('/departments/:id', (req: Request, res: Response) => {
-  const deleted = db.deleteDepartment(req.params.id);
+  const deleted = db.deleteDepartment(param(req.params.id) );
 
   db.logAuditEvent({
     id: `audit-${uuidv4().substring(0, 8)}`,
@@ -431,7 +433,7 @@ apiRouter.delete('/departments/:id', (req: Request, res: Response) => {
     actorId: 'admin',
     action: 'DEPARTMENT_DELETED',
     entityType: 'Department',
-    entityId: req.params.id,
+    entityId: param(req.params.id)  ,
     details: {},
     timestamp: new Date().toISOString()
   });
@@ -466,7 +468,7 @@ apiRouter.post('/doctors', (req: Request, res: Response) => {
 });
 
 apiRouter.patch('/doctors/:id', (req: Request, res: Response) => {
-  const updated = db.updateDoctor(req.params.id, req.body);
+  const updated = db.updateDoctor(param(req.params.id)  , req.body);
   if (!updated) return res.status(404).json({ error: 'Doctor not found' });
 
   db.logAuditEvent({
@@ -475,7 +477,7 @@ apiRouter.patch('/doctors/:id', (req: Request, res: Response) => {
     actorId: 'admin',
     action: 'DOCTOR_UPDATED',
     entityType: 'Doctor',
-    entityId: req.params.id,
+    entityId: param(req.params.id)  ,
     details: req.body,
     hospitalId: updated.hospitalId,
     timestamp: new Date().toISOString()
@@ -485,8 +487,8 @@ apiRouter.patch('/doctors/:id', (req: Request, res: Response) => {
 });
 
 apiRouter.delete('/doctors/:id', (req: Request, res: Response) => {
-  const doc = db.getDoctorById(req.params.id);
-  const deleted = db.deleteDoctor(req.params.id);
+  const doc = db.getDoctorById(param(req.params.id)  );
+  const deleted = db.deleteDoctor(param(req.params.id) );
 
   if (doc) {
     db.logAuditEvent({
@@ -495,7 +497,7 @@ apiRouter.delete('/doctors/:id', (req: Request, res: Response) => {
       actorId: 'admin',
       action: 'DOCTOR_REMOVED',
       entityType: 'Doctor',
-      entityId: req.params.id,
+      entityId: param(req.params.id)  ,
       details: { name: doc.name },
       hospitalId: doc.hospitalId,
       timestamp: new Date().toISOString()
@@ -510,7 +512,7 @@ apiRouter.delete('/doctors/:id', (req: Request, res: Response) => {
 // ==========================================
 apiRouter.patch('/appointments/:id/status', (req: Request, res: Response) => {
   const { status, reason } = req.body;
-  const updated = db.updateAppointmentStatus(req.params.id, status, reason);
+  const updated = db.updateAppointmentStatus(param(req.params.id)  , status, reason);
   if (!updated) return res.status(404).json({ error: 'Appointment not found' });
 
   db.logAuditEvent({
@@ -519,7 +521,7 @@ apiRouter.patch('/appointments/:id/status', (req: Request, res: Response) => {
     actorId: 'admin',
     action: `APPOINTMENT_STATUS_${status.toUpperCase()}`,
     entityType: 'Appointment',
-    entityId: req.params.id,
+    entityId: param(req.params.id) ,
     details: { status, reason },
     timestamp: new Date().toISOString()
   });

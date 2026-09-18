@@ -142,6 +142,7 @@ export class VerificationService {
         action: 'RECONCILIATION_REQUIRED',
         entityType: 'Appointment',
         entityId: appointment.id,
+        timestamp: new Date().toISOString(),
         details: { failureReason: lastError, attempts }
       });
 
@@ -220,6 +221,7 @@ export class VerificationService {
       action: 'APPOINTMENT_CONFIRMED',
       entityType: 'Appointment',
       entityId: appointment.id,
+      timestamp: new Date().toISOString(),
       details: {
         externalAppointmentId,
         verifiedAt: verif.verifiedAt,
